@@ -4899,7 +4899,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="X_3" gate="G$1" x="104.14" y="76.2" smashed="yes"/>
 <instance part="X_4" gate="G$1" x="25.4" y="-25.4" smashed="yes"/>
 <instance part="X_5" gate="G$1" x="73.66" y="35.56" smashed="yes" rot="R270"/>
-<instance part="X_6" gate="G$1" x="114.3" y="-25.4" smashed="yes"/>
+<instance part="X_6" gate="G$1" x="132.08" y="5.08" smashed="yes"/>
 <instance part="X_7" gate="G$1" x="96.52" y="-20.32" smashed="yes"/>
 <instance part="X_8" gate="G$1" x="106.68" y="27.94" smashed="yes" rot="R180"/>
 <instance part="X_9" gate="G$1" x="162.56" y="17.78" smashed="yes" rot="R180"/>
@@ -5000,6 +5000,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="X5" gate="G$1" pin="VDD"/>
 <pinref part="X_8" gate="G$1" pin="0"/>
+</segment>
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="X_6" gate="G$1" pin="0"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -5207,6 +5211,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="132.08" y1="17.78" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="17.78" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
 <junction x="132.08" y="17.78"/>
+<label x="137.16" y="17.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$19" class="0">

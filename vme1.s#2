@@ -6379,6 +6379,7 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+8V" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+8V" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
+<part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6627,6 +6628,9 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <instance part="SUPPLY16" gate="G$1" x="96.52" y="193.04" smashed="yes" rot="R90">
 <attribute name="VALUE" x="99.695" y="190.373" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="SUPPLY17" gate="G$1" x="91.44" y="210.82" smashed="yes" rot="R90">
+<attribute name="VALUE" x="94.615" y="208.153" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6671,6 +6675,13 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <pinref part="U$1" gate="G$1" pin="V_SS"/>
 <wire x1="76.2" y1="193.04" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="TEST"/>
+<wire x1="76.2" y1="210.82" x2="88.9" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="SUPPLY17" gate="G$1" pin="AGND"/>
+<wire x1="88.9" y1="210.82" x2="91.44" y2="210.82" width="0.1524" layer="91"/>
+<junction x="88.9" y="210.82"/>
 </segment>
 </net>
 <net name="DGND" class="0">
@@ -7194,8 +7205,8 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO21"/>
-<wire x1="200.66" y1="96.52" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
-<label x="205.74" y="96.52" size="1.778" layer="95" xref="yes"/>
+<wire x1="200.66" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
+<label x="220.98" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EQ1_CE" class="0">
@@ -7208,12 +7219,6 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <pinref part="U1" gate="G$1" pin="GPIO20"/>
 <wire x1="200.66" y1="99.06" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
 <label x="205.74" y="99.06" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$58" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="TEST"/>
-<wire x1="76.2" y1="210.82" x2="91.44" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
