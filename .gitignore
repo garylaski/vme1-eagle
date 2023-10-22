@@ -2,3 +2,5 @@
 *job
 *simcfg
 *net
+*.b#*
+*.s#*
