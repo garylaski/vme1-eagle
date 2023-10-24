@@ -5303,7 +5303,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="10.16" y1="58.42" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EIN0" class="0">
+<net name="IN1_EQ" class="0">
 <segment>
 <label x="-2.54" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$14" gate="G$1" pin="RIN"/>
@@ -5326,7 +5326,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="7.62" y1="40.64" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EIN1" class="0">
+<net name="IN2_EQ" class="0">
 <segment>
 <label x="-5.08" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$14" gate="G$1" pin="LIN"/>
@@ -5341,14 +5341,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="10.16" y1="33.02" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EOUT0" class="0">
+<net name="OUT1_EQ" class="0">
 <segment>
 <pinref part="C84" gate="G$1" pin="2"/>
 <wire x1="0" y1="60.96" x2="-2.54" y2="60.96" width="0.1524" layer="91"/>
 <label x="-2.54" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="EOUT1" class="0">
+<net name="OUT2_EQ" class="0">
 <segment>
 <pinref part="C91" gate="G$1" pin="2"/>
 <wire x1="0" y1="27.94" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>

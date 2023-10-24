@@ -2135,12 +2135,12 @@ design rules under a new name.</description>
 <wire x1="9.698" y1="14.37641875" x2="10.77158125" y2="15.45" width="0.508" layer="1"/>
 <wire x1="10.77158125" y1="15.45" x2="13.4631" y2="15.45" width="0.508" layer="1"/>
 </signal>
-<signal name="EOUT0">
+<signal name="OUT1_EQ">
 <contactref element="C84" pad="2"/>
 <wire x1="7.351" y1="24.511" x2="2.921" y2="24.511" width="0.508" layer="1"/>
 <wire x1="2.921" y1="24.511" x2="2.54" y2="24.13" width="0.508" layer="1"/>
 </signal>
-<signal name="EOUT1">
+<signal name="OUT2_EQ">
 <contactref element="C91" pad="2"/>
 <wire x1="9.256" y1="12.446" x2="4.064" y2="12.446" width="0.508" layer="1"/>
 <wire x1="4.064" y1="12.446" x2="3.81" y2="12.7" width="0.508" layer="1"/>
@@ -2185,11 +2185,11 @@ design rules under a new name.</description>
 <wire x1="33.02" y1="17.4887" x2="33.9987" y2="16.51" width="0.508" layer="15"/>
 <wire x1="33.9987" y1="16.51" x2="34.29" y2="16.51" width="0.508" layer="15"/>
 </signal>
-<signal name="EIN1">
+<signal name="IN2_EQ">
 <contactref element="U$14" pad="60"/>
 <wire x1="13.4631" y1="16.25" x2="10.308" y2="16.25" width="0.508" layer="1"/>
 </signal>
-<signal name="EIN0">
+<signal name="IN1_EQ">
 <contactref element="U$14" pad="53"/>
 <wire x1="13.4631" y1="21.85" x2="13.432" y2="21.8189" width="0.508" layer="1"/>
 <wire x1="13.432" y1="21.8189" x2="10.72885" y2="21.8189" width="0.508" layer="1"/>

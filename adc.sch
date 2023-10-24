@@ -4779,17 +4779,19 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="91.44" y="12.7"/>
 </segment>
 </net>
-<net name="VIN2" class="0">
+<net name="IN2L_ADC" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VINL1/VIN1P"/>
 <wire x1="38.1" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 <label x="33.02" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="VIN1" class="0">
+<net name="IN1L_ADC" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VINL2/VIN1M"/>
 <wire x1="38.1" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
+<label x="33.02" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="33.02" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 <label x="33.02" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -4807,14 +4809,14 @@ Source: AVX .. aphvc.pdf</description>
 <label x="91.44" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="VIN3" class="0">
+<net name="IN3L_ADC" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VINR3/VIN3P"/>
 <wire x1="38.1" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
 <label x="33.02" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="VIN4" class="0">
+<net name="IN4L_ADC" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VINR4/VIN3M"/>
 <wire x1="38.1" y1="33.02" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
@@ -4867,6 +4869,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="139.7" y1="53.34" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
 <label x="139.7" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="MS/AD"/>
+<wire x1="88.9" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
+<label x="93.98" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="3V3D" class="0">
 <segment>
@@ -4900,6 +4907,34 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C4" gate="G$1" pin="1"/>
 <junction x="139.7" y="60.96"/>
 <label x="139.7" y="66.04" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="IN1R_ADC" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VINR2/VIN2M"/>
+<wire x1="38.1" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
+<label x="33.02" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="IN2R_ADC" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VINR1/VIN2P"/>
+<wire x1="38.1" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
+<label x="33.02" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="IN3R_ADC" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VINL3/VIN4P"/>
+<wire x1="38.1" y1="35.56" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
+<label x="33.02" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="IN4R_ADC" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VINL4/VIN4M"/>
+<wire x1="38.1" y1="30.48" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
+<label x="33.02" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

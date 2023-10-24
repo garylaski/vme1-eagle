@@ -1,0 +1,26 @@
+Partlist
+
+Exported from panner.brd at 10/22/23 10:40 AM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value           Package            Library         Position (mil)        Orientation
+
+C1       0.1u            C0402              rcl             (600 955)             R180
+C2       0.1u            C0402              rcl             (600 1010)            R180
+C3       0.1u            C0402              rcl             (450 1300)            R0
+R1       10k             R0402              rcl             (615 1410)            R180
+R2       10k             R0402              rcl             (605 1350)            R180
+R3       10k             R0402              rcl             (605 1295)            R180
+R4       4k              R0402              rcl             (845 985)             R90
+R5       20k             R0402              rcl             (510 800)             R180
+R6       6k              R0402              rcl             (915 800)             R0
+R7       6k              R0402              rcl             (985 730)             R270
+R8       4k              R0402              rcl             (935 985)             R270
+R9       20k             R0402              rcl             (915 750)             R180
+R10      1.5M            R0402              rcl             (485 1000)            R0
+R11      1.5M            R0402              rcl             (450 930)             R0
+U$1      MCP4131-503E/SN SOIC127P599X175-8N MCP4131-503E_SN (700 1150)            R0
+U1       LM4562MAX/NOPB  SOIC127P599X175-8N LM4562MAX_NOPB  (700 825)             R180

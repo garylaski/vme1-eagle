@@ -1563,13 +1563,13 @@ design rules under a new name.</description>
 <wire x1="7.62" y1="15.55" x2="6.604" y2="14.534" width="0.254" layer="16"/>
 <wire x1="6.604" y1="14.534" x2="6.604" y2="14.351" width="0.254" layer="16"/>
 </signal>
-<signal name="VIN2">
+<signal name="IN2L_ADC">
 <contactref element="IC1" pad="3"/>
 <via x="17.526" y="21.59" extent="1-16" drill="0.508"/>
 <wire x1="17.526" y1="21.59" x2="17.486" y2="21.55" width="0.2032" layer="16"/>
 <wire x1="17.486" y1="21.55" x2="15.97" y2="21.55" width="0.2032" layer="16"/>
 </signal>
-<signal name="VIN1">
+<signal name="IN1L_ADC">
 <contactref element="IC1" pad="1"/>
 <wire x1="15.97" y1="22.55" x2="16.002" y2="22.582" width="0.254" layer="16"/>
 <wire x1="16.002" y1="22.582" x2="16.002" y2="23.622" width="0.254" layer="16"/>
@@ -1585,13 +1585,13 @@ design rules under a new name.</description>
 <wire x1="9.43" y1="19.05" x2="6.858" y2="19.05" width="0.254" layer="16"/>
 <wire x1="6.858" y1="19.05" x2="6.731" y2="18.923" width="0.254" layer="16"/>
 </signal>
-<signal name="VIN3">
+<signal name="IN3L_ADC">
 <contactref element="IC1" pad="30"/>
 <wire x1="9.43" y1="22.55" x2="9.398" y2="22.582" width="0.254" layer="16"/>
 <wire x1="9.398" y1="22.582" x2="9.398" y2="23.495" width="0.254" layer="16"/>
 <via x="9.398" y="23.495" extent="1-16" drill="0.508"/>
 </signal>
-<signal name="VIN4">
+<signal name="IN4L_ADC">
 <contactref element="IC1" pad="28"/>
 <wire x1="9.43" y1="21.55" x2="8.168" y2="21.55" width="0.254" layer="16"/>
 <wire x1="8.168" y1="21.55" x2="8.0645" y2="21.6535" width="0.254" layer="16"/>
@@ -1628,6 +1628,8 @@ design rules under a new name.</description>
 <via x="20.32" y="22.225" extent="1-16" drill="0.508"/>
 <wire x1="20.32" y1="22.225" x2="18.161" y2="20.066" width="0.254" layer="2"/>
 <wire x1="18.161" y1="20.066" x2="13.462" y2="20.066" width="0.254" layer="2"/>
+<contactref element="IC1" pad="25"/>
+<wire x1="9.43" y1="20.05" x2="13.462" y2="20.066" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="3V3D">
 <contactref element="IC1" pad="14"/>
@@ -1653,6 +1655,18 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="19.05" x2="17.526" y2="18.796" width="0.254" layer="16"/>
 <wire x1="17.526" y1="18.796" x2="17.526" y2="18.415" width="0.254" layer="16"/>
 <via x="17.526" y="18.415" extent="1-16" drill="0.508"/>
+</signal>
+<signal name="IN1R_ADC">
+<contactref element="IC1" pad="2"/>
+</signal>
+<signal name="IN2R_ADC">
+<contactref element="IC1" pad="4"/>
+</signal>
+<signal name="IN3R_ADC">
+<contactref element="IC1" pad="29"/>
+</signal>
+<signal name="IN4R_ADC">
+<contactref element="IC1" pad="27"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
