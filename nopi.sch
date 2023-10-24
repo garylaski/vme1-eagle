@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -60,196 +74,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="RASPBERRY_PI_4B_4GB">
-<packages>
-<package name="MODULE_RASPBERRY_PI_4B_4GB">
-<wire x1="-42.5" y1="25" x2="-42.5" y2="-25" width="0.127" layer="21"/>
-<wire x1="-42.5" y1="-25" x2="-39.5" y2="-28" width="0.127" layer="21" curve="90"/>
-<wire x1="-39.5" y1="-28" x2="39.5" y2="-28" width="0.127" layer="21"/>
-<wire x1="39.5" y1="-28" x2="42.5" y2="-25" width="0.127" layer="21" curve="90"/>
-<wire x1="42.5" y1="-25" x2="42.5" y2="25" width="0.127" layer="21"/>
-<wire x1="42.5" y1="25" x2="39.5" y2="28" width="0.127" layer="21" curve="90"/>
-<wire x1="39.5" y1="28" x2="-39.5" y2="28" width="0.127" layer="21"/>
-<wire x1="-39.5" y1="28" x2="-42.5" y2="25" width="0.127" layer="21" curve="90"/>
-<text x="-42.75" y="-31.77" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="23.5" y1="-25.5" x2="45" y2="-25.5" width="0.127" layer="51" style="shortdash"/>
-<wire x1="45" y1="-25.5" x2="45" y2="25.5" width="0.127" layer="51" style="shortdash"/>
-<wire x1="45" y1="25.5" x2="23.5" y2="25.5" width="0.127" layer="51" style="shortdash"/>
-<wire x1="23.5" y1="25.5" x2="23.5" y2="-25.5" width="0.127" layer="51" style="shortdash"/>
-<text x="-42.75" y="29" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<wire x1="-42.75" y1="-30.255" x2="-42.75" y2="28.25" width="0.05" layer="39"/>
-<wire x1="-42.75" y1="28.25" x2="45.25" y2="28.25" width="0.05" layer="39"/>
-<wire x1="45.25" y1="28.25" x2="45.25" y2="-30.255" width="0.05" layer="39"/>
-<wire x1="45.25" y1="-30.255" x2="-42.75" y2="-30.255" width="0.05" layer="39"/>
-<circle x="-43.4" y="23" radius="0.2" width="0.4" layer="21"/>
-<circle x="-43.4" y="23" radius="0.2" width="0.4" layer="51"/>
-<wire x1="-42.5" y1="25" x2="-42.5" y2="-25" width="0.127" layer="51"/>
-<wire x1="-42.5" y1="-25" x2="-39.5" y2="-28" width="0.127" layer="51" curve="90"/>
-<wire x1="-39.5" y1="-28" x2="39.5" y2="-28" width="0.127" layer="51"/>
-<wire x1="39.5" y1="-28" x2="42.5" y2="-25" width="0.127" layer="51" curve="90"/>
-<wire x1="42.5" y1="-25" x2="42.5" y2="25" width="0.127" layer="51"/>
-<wire x1="42.5" y1="25" x2="39.5" y2="28" width="0.127" layer="51" curve="90"/>
-<wire x1="39.5" y1="28" x2="-39.5" y2="28" width="0.127" layer="51"/>
-<wire x1="-39.5" y1="28" x2="-42.5" y2="25" width="0.127" layer="51" curve="90"/>
-<pad name="S4" x="-39" y="-24.5" drill="2.75" diameter="6.2"/>
-<pad name="S3" x="19" y="-24.5" drill="2.75" diameter="6.2"/>
-<pad name="S2" x="19" y="24.5" drill="2.75" diameter="6.2"/>
-<pad name="S1" x="-39" y="24.5" drill="2.75" diameter="6.2"/>
-<pad name="1" x="-34.13" y="23.23" drill="1.016" shape="square"/>
-<pad name="3" x="-31.59" y="23.23" drill="1.016"/>
-<pad name="5" x="-29.05" y="23.23" drill="1.016"/>
-<pad name="7" x="-26.51" y="23.23" drill="1.016"/>
-<pad name="9" x="-23.97" y="23.23" drill="1.016"/>
-<pad name="11" x="-21.43" y="23.23" drill="1.016"/>
-<pad name="2" x="-34.13" y="25.77" drill="1.016"/>
-<pad name="4" x="-31.59" y="25.77" drill="1.016"/>
-<pad name="6" x="-29.05" y="25.77" drill="1.016"/>
-<pad name="8" x="-26.51" y="25.77" drill="1.016"/>
-<pad name="10" x="-23.97" y="25.77" drill="1.016"/>
-<pad name="12" x="-21.43" y="25.77" drill="1.016"/>
-<pad name="13" x="-18.89" y="23.23" drill="1.016"/>
-<pad name="14" x="-18.89" y="25.77" drill="1.016"/>
-<pad name="15" x="-16.35" y="23.23" drill="1.016"/>
-<pad name="17" x="-13.81" y="23.23" drill="1.016"/>
-<pad name="19" x="-11.27" y="23.23" drill="1.016"/>
-<pad name="21" x="-8.73" y="23.23" drill="1.016"/>
-<pad name="23" x="-6.19" y="23.23" drill="1.016"/>
-<pad name="25" x="-3.65" y="23.23" drill="1.016"/>
-<pad name="16" x="-16.35" y="25.77" drill="1.016"/>
-<pad name="18" x="-13.81" y="25.77" drill="1.016"/>
-<pad name="20" x="-11.27" y="25.77" drill="1.016"/>
-<pad name="22" x="-8.73" y="25.77" drill="1.016"/>
-<pad name="24" x="-6.19" y="25.77" drill="1.016"/>
-<pad name="26" x="-3.65" y="25.77" drill="1.016"/>
-<pad name="27" x="-1.11" y="23.23" drill="1.016"/>
-<pad name="28" x="-1.11" y="25.77" drill="1.016"/>
-<pad name="29" x="1.43" y="23.23" drill="1.016"/>
-<pad name="31" x="3.97" y="23.23" drill="1.016"/>
-<pad name="33" x="6.51" y="23.23" drill="1.016"/>
-<pad name="35" x="9.05" y="23.23" drill="1.016"/>
-<pad name="37" x="11.59" y="23.23" drill="1.016"/>
-<pad name="39" x="14.13" y="23.23" drill="1.016"/>
-<pad name="30" x="1.43" y="25.77" drill="1.016"/>
-<pad name="32" x="3.97" y="25.77" drill="1.016"/>
-<pad name="34" x="6.51" y="25.77" drill="1.016"/>
-<pad name="36" x="9.05" y="25.77" drill="1.016"/>
-<pad name="38" x="11.59" y="25.77" drill="1.016"/>
-<pad name="40" x="14.13" y="25.77" drill="1.016"/>
-<pad name="43" x="17.69" y="17.107" drill="1.016"/>
-<pad name="41" x="20.23" y="17.107" drill="1.016"/>
-<pad name="44" x="17.69" y="19.647" drill="1.016"/>
-<pad name="42" x="20.23" y="19.647" drill="1.016"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RASPBERRY_PI_4B_4GB">
-<wire x1="-20.32" y1="33.02" x2="20.32" y2="33.02" width="0.254" layer="94"/>
-<wire x1="20.32" y1="33.02" x2="20.32" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-30.48" x2="-20.32" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-30.48" x2="-20.32" y2="33.02" width="0.254" layer="94"/>
-<text x="-20.32" y="33.528" size="2.54" layer="95">&gt;NAME</text>
-<text x="-20.32" y="-33.02" size="2.54" layer="96">&gt;VALUE</text>
-<pin name="5V" x="25.4" y="30.48" length="middle" direction="pwr" rot="R180"/>
-<pin name="3V3" x="25.4" y="27.94" length="middle" direction="pwr" rot="R180"/>
-<pin name="GPIO2/SDA1" x="-25.4" y="25.4" length="middle"/>
-<pin name="GPIO3/SCL1" x="-25.4" y="22.86" length="middle"/>
-<pin name="GPIO4/GPIO_GCKL" x="-25.4" y="20.32" length="middle"/>
-<pin name="GPIO14/TXD0" x="25.4" y="20.32" length="middle" rot="R180"/>
-<pin name="GND" x="25.4" y="-27.94" length="middle" direction="pwr" rot="R180"/>
-<pin name="GPIO15/RXD0" x="25.4" y="17.78" length="middle" rot="R180"/>
-<pin name="GPIO17/GPIO_GEN0" x="-25.4" y="15.24" length="middle"/>
-<pin name="GPIO18/GPIO_GEN1" x="-25.4" y="10.16" length="middle"/>
-<pin name="GPIO27/GPIO_GEN2" x="-25.4" y="12.7" length="middle"/>
-<pin name="GPIO22/GPIO_GEN3" x="-25.4" y="7.62" length="middle"/>
-<pin name="GPIO23/GPIO_GEN4" x="-25.4" y="5.08" length="middle"/>
-<pin name="GPIO24/GPIO_GEN5" x="-25.4" y="2.54" length="middle"/>
-<pin name="GPIO10/SPI_MOSI" x="-25.4" y="-12.7" length="middle"/>
-<pin name="GPIO9/SPI_MISO" x="-25.4" y="-15.24" length="middle"/>
-<pin name="GPIO25/GPIO_GEN6" x="-25.4" y="0" length="middle"/>
-<pin name="GPIO11/SPI_SCLK" x="-25.4" y="-10.16" length="middle"/>
-<pin name="GPIO8/!SPI_CE0!" x="-25.4" y="-5.08" length="middle"/>
-<pin name="GPIO7/!SPI_CE1!" x="-25.4" y="-7.62" length="middle"/>
-<pin name="ID_SD" x="-25.4" y="-20.32" length="middle"/>
-<pin name="ID_SC" x="-25.4" y="-22.86" length="middle"/>
-<pin name="GPIO5" x="25.4" y="12.7" length="middle" rot="R180"/>
-<pin name="GPIO6" x="25.4" y="10.16" length="middle" rot="R180"/>
-<pin name="GPIO12" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="GPIO13" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="GPIO19" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="GPIO16" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="GPIO26" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="GPIO20" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO21" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<pin name="SHIELD" x="25.4" y="-25.4" length="middle" direction="pwr" rot="R180"/>
-<pin name="TR02" x="25.4" y="-17.78" length="middle" rot="R180"/>
-<pin name="TR01" x="25.4" y="-15.24" length="middle" rot="R180"/>
-<pin name="TR00" x="25.4" y="-12.7" length="middle" rot="R180"/>
-<pin name="TR03" x="25.4" y="-20.32" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RASPBERRY_PI_4B_4GB" prefix="U">
-<description> &lt;a href="https://pricing.snapeda.com/parts/RASPBERRY%20PI%204B/4GB/Raspberry%20Pi/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="RASPBERRY_PI_4B_4GB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MODULE_RASPBERRY_PI_4B_4GB">
-<connects>
-<connect gate="G$1" pin="3V3" pad="1 17"/>
-<connect gate="G$1" pin="5V" pad="2 4"/>
-<connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39"/>
-<connect gate="G$1" pin="GPIO10/SPI_MOSI" pad="19"/>
-<connect gate="G$1" pin="GPIO11/SPI_SCLK" pad="23"/>
-<connect gate="G$1" pin="GPIO12" pad="32"/>
-<connect gate="G$1" pin="GPIO13" pad="33"/>
-<connect gate="G$1" pin="GPIO14/TXD0" pad="8"/>
-<connect gate="G$1" pin="GPIO15/RXD0" pad="10"/>
-<connect gate="G$1" pin="GPIO16" pad="36"/>
-<connect gate="G$1" pin="GPIO17/GPIO_GEN0" pad="11"/>
-<connect gate="G$1" pin="GPIO18/GPIO_GEN1" pad="12"/>
-<connect gate="G$1" pin="GPIO19" pad="35"/>
-<connect gate="G$1" pin="GPIO2/SDA1" pad="3"/>
-<connect gate="G$1" pin="GPIO20" pad="38"/>
-<connect gate="G$1" pin="GPIO21" pad="40"/>
-<connect gate="G$1" pin="GPIO22/GPIO_GEN3" pad="15"/>
-<connect gate="G$1" pin="GPIO23/GPIO_GEN4" pad="16"/>
-<connect gate="G$1" pin="GPIO24/GPIO_GEN5" pad="18"/>
-<connect gate="G$1" pin="GPIO25/GPIO_GEN6" pad="22"/>
-<connect gate="G$1" pin="GPIO26" pad="37"/>
-<connect gate="G$1" pin="GPIO27/GPIO_GEN2" pad="13"/>
-<connect gate="G$1" pin="GPIO3/SCL1" pad="5"/>
-<connect gate="G$1" pin="GPIO4/GPIO_GCKL" pad="7"/>
-<connect gate="G$1" pin="GPIO5" pad="29"/>
-<connect gate="G$1" pin="GPIO6" pad="31"/>
-<connect gate="G$1" pin="GPIO7/!SPI_CE1!" pad="26"/>
-<connect gate="G$1" pin="GPIO8/!SPI_CE0!" pad="24"/>
-<connect gate="G$1" pin="GPIO9/SPI_MISO" pad="21"/>
-<connect gate="G$1" pin="ID_SC" pad="28"/>
-<connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
-<connect gate="G$1" pin="TR00" pad="42"/>
-<connect gate="G$1" pin="TR01" pad="41"/>
-<connect gate="G$1" pin="TR02" pad="44"/>
-<connect gate="G$1" pin="TR03" pad="43"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Not in stock"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/RASPBERRY%20PI%204B/4GB/Raspberry+Pi/view-part/?ref=eda"/>
-<attribute name="DESCRIPTION" value=" BCM2711 Raspberry Pi 4 Model B 4GB - ARM® Cortex®-A72 MPU Embedded Evaluation Board "/>
-<attribute name="MF" value="Raspberry Pi"/>
-<attribute name="MP" value="RASPBERRY PI 4B/4GB"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/RASPBERRY%20PI%204B/4GB/Raspberry+Pi/view-part/?ref=snap"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply2" urn="urn:adsk.eagle:library:372">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
 GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -511,6 +335,58 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad" urn="urn:adsk.eagle:library:412">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMD1,27-2,54" urn="urn:adsk.eagle:footprint:30822/1" library_version="2">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SMD1,27-2,54" urn="urn:adsk.eagle:package:30839/1" type="box" library_version="2">
+<description>SMD PAD</description>
+<packageinstances>
+<packageinstance name="SMD1,27-2,54"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PAD" urn="urn:adsk.eagle:symbol:30808/1" library_version="2">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMD2" urn="urn:adsk.eagle:component:30857/2" prefix="PAD" uservalue="yes" library_version="2">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD1,27-2,54">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30839/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="15" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -521,7 +397,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="U1" library="RASPBERRY_PI_4B_4GB" deviceset="RASPBERRY_PI_4B_4GB" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3_D" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="U6" library="TMUX1204DGSR" deviceset="TMUX1204DGSR" device=""/>
@@ -540,21 +415,28 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY53" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3_D" device=""/>
 <part name="SUPPLY54" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
+<part name="MUX0" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="MUX1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="CS0" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="CS1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="CS2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="SDI/O" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="SCK" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="SCL" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="SDA" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="3V3_D" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="175.26" y="101.6" smashed="yes">
-<attribute name="NAME" x="154.94" y="135.128" size="2.54" layer="95"/>
-<attribute name="VALUE" x="154.94" y="68.58" size="2.54" layer="96"/>
-</instance>
 <instance part="+3V5" gate="G$1" x="210.82" y="139.7" smashed="yes">
 <attribute name="VALUE" x="208.28" y="134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="205.74" y="66.04" smashed="yes">
-<attribute name="VALUE" x="203.073" y="62.865" size="1.778" layer="96"/>
+<instance part="SUPPLY12" gate="G$1" x="208.28" y="124.46" smashed="yes" rot="R90">
+<attribute name="VALUE" x="211.455" y="121.793" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U6" gate="G$1" x="284.48" y="121.92" smashed="yes">
 <attribute name="NAME" x="271.78" y="140.7" size="2.0828" layer="95" ratio="10" rot="SR0"/>
@@ -608,20 +490,59 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY54" gate="G$1" x="251.46" y="195.58" smashed="yes">
 <attribute name="VALUE" x="248.793" y="192.405" size="1.778" layer="96"/>
 </instance>
+<instance part="MUX0" gate="1" x="198.12" y="114.3" smashed="yes">
+<attribute name="NAME" x="196.977" y="116.1542" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.977" y="110.998" size="1.778" layer="96"/>
+</instance>
+<instance part="MUX1" gate="1" x="198.12" y="111.76" smashed="yes">
+<attribute name="NAME" x="196.977" y="113.6142" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.977" y="108.458" size="1.778" layer="96"/>
+</instance>
+<instance part="CS0" gate="1" x="198.12" y="109.22" smashed="yes">
+<attribute name="NAME" x="196.977" y="111.0742" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.977" y="105.918" size="1.778" layer="96"/>
+</instance>
+<instance part="CS1" gate="1" x="198.12" y="106.68" smashed="yes">
+<attribute name="NAME" x="196.977" y="108.5342" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.977" y="103.378" size="1.778" layer="96"/>
+</instance>
+<instance part="CS2" gate="1" x="198.12" y="104.14" smashed="yes">
+<attribute name="NAME" x="196.977" y="105.9942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.977" y="100.838" size="1.778" layer="96"/>
+</instance>
+<instance part="SDI/O" gate="1" x="152.4" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="153.543" y="109.9058" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="153.543" y="115.062" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SCK" gate="1" x="152.4" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="153.543" y="117.5258" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="153.543" y="122.682" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SCL" gate="1" x="152.4" y="124.46" smashed="yes" rot="R180">
+<attribute name="NAME" x="153.543" y="122.6058" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="153.543" y="127.762" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SDA" gate="1" x="152.4" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="153.543" y="127.6858" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="153.543" y="132.842" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="3V3_D" gate="1" x="198.12" y="129.54" smashed="yes">
+<attribute name="NAME" x="196.977" y="131.3942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.977" y="126.238" size="1.778" layer="96"/>
+</instance>
+<instance part="GND" gate="1" x="198.12" y="124.46" smashed="yes">
+<attribute name="NAME" x="196.977" y="126.3142" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.977" y="121.158" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="DGND" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="200.66" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="73.66" x2="205.74" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="DGND"/>
-<pinref part="U1" gate="G$1" pin="SHIELD"/>
-<wire x1="200.66" y1="76.2" x2="205.74" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="76.2" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
-<junction x="205.74" y="73.66"/>
+<pinref part="GND" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="GND"/>
@@ -665,10 +586,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="3V3"/>
 <wire x1="200.66" y1="129.54" x2="210.82" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="129.54" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<pinref part="3V3_D" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="VDD"/>
@@ -710,55 +631,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
-<net name="CLK_ADC" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO4/GPIO_GCKL"/>
-<wire x1="149.86" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
-<label x="137.16" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="DOUT_ADC" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO17/GPIO_GEN0"/>
-<wire x1="149.86" y1="116.84" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
-<label x="132.08" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="BCK_ADC" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO27/GPIO_GEN2"/>
-<wire x1="149.86" y1="114.3" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
-<label x="147.32" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LRCK_ADC" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO18/GPIO_GEN1"/>
-<wire x1="149.86" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
-<label x="132.08" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="EQ1_CL" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO26"/>
-<wire x1="200.66" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
-<label x="205.74" y="93.98" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="EQ1_DI" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO21"/>
-<wire x1="200.66" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
-<label x="220.98" y="96.52" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="EQ1_CE" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO20"/>
-<wire x1="200.66" y1="99.06" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
-<label x="205.74" y="99.06" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="CS0_0" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="S1"/>
@@ -768,9 +640,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO11/SPI_SCLK"/>
-<wire x1="149.86" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
-<label x="139.7" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
+<label x="139.7" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="SCK" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="CS1_0" class="0">
@@ -789,9 +661,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="SDI/O" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO10/SPI_MOSI"/>
-<wire x1="149.86" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
-<label x="139.7" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
+<label x="142.24" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="SDI/O" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="SCL_0" class="0">
@@ -845,9 +717,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="MUX0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO5"/>
 <wire x1="200.66" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
 <label x="205.74" y="114.3" size="1.778" layer="95" xref="yes"/>
+<pinref part="MUX0" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="A0"/>
@@ -867,9 +739,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="MUX1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO6"/>
 <wire x1="200.66" y1="111.76" x2="205.74" y2="111.76" width="0.1524" layer="91"/>
 <label x="205.74" y="111.76" size="1.778" layer="95" xref="yes"/>
+<pinref part="MUX1" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="A1"/>
@@ -903,9 +775,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="CS2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO16"/>
 <wire x1="200.66" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 <label x="215.9" y="104.14" size="1.778" layer="95" xref="yes"/>
+<pinref part="CS2" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="D"/>
@@ -976,9 +848,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="259.08" y="203.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO3/SCL1"/>
-<wire x1="149.86" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
-<label x="147.32" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="124.46" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
+<label x="139.7" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="SCL" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -988,37 +860,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="256.54" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO2/SDA1"/>
-<wire x1="149.86" y1="127" x2="137.16" y2="127" width="0.1524" layer="91"/>
-<label x="137.16" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="EQ0_CE" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO23/GPIO_GEN4"/>
-<wire x1="149.86" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
-<label x="142.24" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="EQ0_DI" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO24/GPIO_GEN5"/>
-<wire x1="149.86" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
-<label x="139.7" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="EQ0_CL" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO25/GPIO_GEN6"/>
-<wire x1="149.86" y1="101.6" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
-<label x="139.7" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
+<label x="139.7" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="SDA" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="CS0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO12"/>
 <wire x1="200.66" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
 <label x="215.9" y="109.22" size="1.778" layer="95" xref="yes"/>
+<pinref part="CS0" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="D"/>
@@ -1028,9 +879,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="CS1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO13"/>
 <wire x1="200.66" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
 <label x="203.2" y="106.68" size="1.778" layer="95" xref="yes"/>
+<pinref part="CS1" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="D"/>
@@ -1053,6 +904,11 @@ with this version.
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

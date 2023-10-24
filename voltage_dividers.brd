@@ -73,10 +73,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="22.84" y2="0" width="0" layer="20"/>
-<wire x1="22.84" y1="0" x2="22.84" y2="12.37" width="0" layer="20"/>
-<wire x1="22.84" y1="12.37" x2="0" y2="12.37" width="0" layer="20"/>
-<wire x1="0" y1="12.37" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1182,6 +1178,26 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="wirepad" urn="urn:adsk.eagle:library:412">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMD1,27-2,54" urn="urn:adsk.eagle:footprint:30822/1" library_version="2">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SMD1,27-2,54" urn="urn:adsk.eagle:package:30839/1" type="box" library_version="2">
+<description>SMD PAD</description>
+<packageinstances>
+<packageinstance name="SMD1,27-2,54"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1189,15 +1205,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
-</class>
-<class number="1" name="ANALOG" width="0.508" drill="0.508">
-<clearance class="1" value="0.254"/>
-</class>
-<class number="2" name="POWER" width="0.508" drill="0.508">
-<clearance class="2" value="0.254"/>
-</class>
-<class number="3" name="GND" width="0.508" drill="0.508">
-<clearance class="3" value="0.254"/>
 </class>
 </classes>
 <designrules name="default *">
@@ -1215,7 +1222,7 @@ a wide range of applications. Your particular design
 may have different requirements, so please make the
 necessary adjustments and save your customized
 design rules under a new name.</description>
-<param name="layerSetup" value="([2:[15:1+2*15+16]])"/>
+<param name="layerSetup" value="(1+2*15+16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="6mil"/>
@@ -1390,11 +1397,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="30.607" y="-9.652" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.652" y="1.143" size="1.27" layer="27"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1k" x="5.08" y="5.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.715" y="5.715" size="1.27" layer="25" rot="R270"/>
-<attribute name="POPULARITY" value="34" x="-7.62" y="-19.05" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-7.62" y="-19.05" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="3.175" y="5.715" size="1.27" layer="27" rot="R270"/>
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1k" x="5.842" y="6.096" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.477" y="6.731" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="34" x="-6.858" y="-18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-6.858" y="-18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="3.937" y="6.731" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1k" x="7.747" y="3.048" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.382" y="2.413" size="1.27" layer="25" rot="R180"/>
@@ -1421,9 +1428,19 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LM4562MAX/NOPB/Texas+Instruments/view-part/?ref=snap" x="39.37" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.14" y="4.718" size="1.27" layer="27" align="top-left"/>
 </element>
+<element name="9VDD" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="" x="6.604" y="10.541" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.004" y="9.741" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="15" x="6.604" y="10.541" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="6.604" y="10.541" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="" x="8.128" y="5.207" smashed="yes">
+<attribute name="NAME" x="7.328" y="2.807" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="15" x="8.128" y="5.207" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="8.128" y="5.207" size="0.0254" layer="27"/>
+</element>
 </elements>
 <signals>
-<signal name="N$1" class="1">
+<signal name="N$1">
 <contactref element="U1" pad="3"/>
 <contactref element="R3" pad="2"/>
 <contactref element="R4" pad="2"/>
@@ -1432,21 +1449,21 @@ design rules under a new name.</description>
 <wire x1="6.985" y1="7.247" x2="9.968" y2="7.247" width="0.508" layer="1"/>
 <wire x1="9.968" y1="7.247" x2="10.23" y2="6.985" width="0.508" layer="1"/>
 </signal>
-<signal name="N$2" class="1">
+<signal name="N$2">
 <contactref element="U1" pad="5"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R1" pad="2"/>
 <wire x1="10.787" y1="3.048" x2="13.454" y2="5.715" width="0.508" layer="1"/>
 <wire x1="13.454" y1="5.715" x2="15.17" y2="5.715" width="0.508" layer="1"/>
-<wire x1="5.08" y1="4.58" x2="6.223" y2="3.437" width="0.508" layer="1"/>
+<wire x1="5.842" y1="5.596" x2="6.223" y2="5.215" width="0.508" layer="1"/>
 <wire x1="10.741" y1="3.002" x2="10.787" y2="3.048" width="0.508" layer="1"/>
 <wire x1="6.73658125" y1="2.19" x2="10.29741875" y2="2.19" width="0.508" layer="1"/>
-<wire x1="6.223" y1="3.437" x2="6.223" y2="2.70358125" width="0.508" layer="1"/>
+<wire x1="6.223" y1="5.215" x2="6.223" y2="2.70358125" width="0.508" layer="1"/>
 <wire x1="6.223" y1="2.70358125" x2="6.73658125" y2="2.19" width="0.508" layer="1"/>
 <wire x1="10.29741875" y1="2.19" x2="10.741" y2="2.63358125" width="0.508" layer="1"/>
 <wire x1="10.741" y1="2.63358125" x2="10.741" y2="3.002" width="0.508" layer="1"/>
 </signal>
-<signal name="GND" class="3">
+<signal name="GND">
 <contactref element="R3" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="U1" pad="4"/>
@@ -1455,11 +1472,14 @@ design rules under a new name.</description>
 <wire x1="9.979" y1="3.60841875" x2="10.23" y2="3.85941875" width="0.508" layer="1"/>
 <wire x1="10.23" y1="3.85941875" x2="10.23" y2="5.715" width="0.508" layer="1"/>
 <wire x1="8.247" y1="3.048" x2="9.787" y2="3.048" width="0.508" layer="1"/>
-<wire x1="10.23" y1="5.715" x2="9.087" y2="4.572" width="0.508" layer="1"/>
-<wire x1="9.087" y1="4.572" x2="8.763" y2="4.572" width="0.508" layer="1"/>
-<via x="8.763" y="4.572" extent="1-2" drill="0.508"/>
+<wire x1="10.23" y1="5.715" x2="10.484" y2="5.969" width="0.508" layer="1"/>
+<wire x1="12.065" y1="5.969" x2="10.484" y2="5.969" width="0.508" layer="1"/>
+<via x="12.065" y="5.969" extent="1-16" drill="0.508"/>
+<contactref element="GND" pad="1"/>
+<wire x1="8.128" y1="5.207" x2="8.128" y2="3.167" width="0.508" layer="1"/>
+<wire x1="8.128" y1="3.167" x2="8.247" y2="3.048" width="0.508" layer="1"/>
 </signal>
-<signal name="VDD" class="2">
+<signal name="VDD">
 <contactref element="R4" pad="1"/>
 <contactref element="R2" pad="1"/>
 <contactref element="U1" pad="8"/>
@@ -1469,29 +1489,32 @@ design rules under a new name.</description>
 <wire x1="9.071" y1="10.333" x2="11.3814875" y2="10.333" width="0.508" layer="1"/>
 <wire x1="6.42458125" y1="8.055" x2="6.793" y2="8.055" width="0.508" layer="1"/>
 <wire x1="6.793" y1="8.055" x2="6.985" y2="8.247" width="0.508" layer="1"/>
-<wire x1="5.08" y1="5.58" x2="5.08" y2="6.71041875" width="0.508" layer="1"/>
-<wire x1="5.08" y1="6.71041875" x2="6.42458125" y2="8.055" width="0.508" layer="1"/>
-<wire x1="5.08" y1="5.58" x2="4.58" y2="5.58" width="0.508" layer="1"/>
-<wire x1="4.58" y1="5.58" x2="3.81" y2="6.35" width="0.508" layer="1"/>
-<via x="3.81" y="6.35" extent="1-15" drill="0.508"/>
+<wire x1="5.842" y1="6.596" x2="5.842" y2="7.47241875" width="0.508" layer="1"/>
+<wire x1="5.842" y1="7.47241875" x2="6.42458125" y2="8.055" width="0.508" layer="1"/>
+<wire x1="5.842" y1="6.596" x2="5.842" y2="9.017" width="0.508" layer="1"/>
+<wire x1="6.096" y1="9.271" x2="5.842" y2="9.017" width="0.508" layer="1"/>
+<via x="6.096" y="9.271" extent="1-16" drill="0.508"/>
+<contactref element="9VDD" pad="1"/>
+<wire x1="6.096" y1="9.271" x2="5.715" y2="9.652" width="0.508" layer="1"/>
+<wire x1="5.715" y1="9.652" x2="6.604" y2="10.541" width="0.508" layer="1"/>
 </signal>
-<signal name="3V3A" class="2">
+<signal name="3V3A">
 <contactref element="U1" pad="2"/>
 <contactref element="U1" pad="1"/>
 <wire x1="10.23" y1="9.525" x2="10.23" y2="8.255" width="0.508" layer="1"/>
-<via x="12.7" y="7.62" extent="1-15" drill="0.508"/>
+<via x="12.7" y="7.62" extent="1-16" drill="0.508"/>
 <wire x1="10.23" y1="8.255" x2="10.692" y2="7.793" width="0.508" layer="1"/>
 <wire x1="10.692" y1="7.793" x2="11.3814875" y2="7.793" width="0.508" layer="1"/>
 <wire x1="11.3814875" y1="7.793" x2="11.5544875" y2="7.62" width="0.508" layer="1"/>
 <wire x1="11.5544875" y1="7.62" x2="12.7" y2="7.62" width="0.508" layer="1"/>
 </signal>
-<signal name="VREF" class="2">
+<signal name="VREF">
 <contactref element="U1" pad="6"/>
 <contactref element="U1" pad="7"/>
 <wire x1="15.17" y1="8.255" x2="15.17" y2="6.985" width="0.508" layer="1"/>
 <wire x1="15.17" y1="8.255" x2="15.805" y2="7.62" width="0.508" layer="1"/>
-<wire x1="15.805" y1="7.62" x2="20.32" y2="7.62" width="0.508" layer="1"/>
-<via x="20.32" y="7.62" extent="1-15" drill="0.508"/>
+<wire x1="15.805" y1="7.62" x2="16.891" y2="7.62" width="0.508" layer="1"/>
+<via x="16.891" y="7.62" extent="1-16" drill="0.508"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
