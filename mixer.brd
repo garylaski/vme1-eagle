@@ -1645,7 +1645,6 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="R16" pad="2"/>
 <contactref element="C1" pad="1"/>
-<wire x1="13.081" y1="-8.748" x2="13.081" y2="-8.898" width="0.508" layer="1"/>
 <wire x1="13.081" y1="-8.898" x2="14.247" y2="-8.898" width="0.508" layer="1"/>
 <wire x1="14.247" y1="-8.898" x2="14.478" y2="-9.129" width="0.508" layer="1"/>
 </signal>
@@ -1682,11 +1681,10 @@ design rules under a new name.</description>
 <wire x1="12.708" y1="-7.62" x2="12.708" y2="-6.35" width="0.508" layer="1"/>
 <wire x1="12.708" y1="-6.35" x2="12.835" y2="-6.223" width="0.508" layer="1"/>
 <wire x1="12.962" y1="-2.413" x2="12.962" y2="-1.143" width="0.508" layer="1"/>
-<wire x1="12.954" y1="-2.421" x2="12.962" y2="-2.413" width="0.508" layer="1"/>
-<wire x1="12.962" y1="-2.413" x2="12.946" y2="-2.429" width="0.508" layer="1"/>
-<wire x1="12.946" y1="-2.429" x2="12.946" y2="-4.318" width="0.508" layer="1"/>
 <wire x1="12.946" y1="-4.318" x2="12.835" y2="-4.429" width="0.508" layer="1"/>
 <wire x1="12.835" y1="-4.429" x2="12.835" y2="-6.223" width="0.508" layer="1"/>
+<wire x1="12.946" y1="-4.318" x2="12.946" y2="-2.429" width="0.508" layer="1"/>
+<wire x1="12.946" y1="-2.429" x2="12.962" y2="-2.413" width="0.508" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R8" pad="1"/>
@@ -1772,11 +1770,11 @@ design rules under a new name.</description>
 <contactref element="R15" pad="1"/>
 <contactref element="R13" pad="2"/>
 <contactref element="OPAMP1_MIX" pad="2"/>
-<wire x1="9.971" y1="-8.771" x2="9.963" y2="-8.763" width="0.508" layer="1"/>
 <wire x1="11.946" y1="-4.318" x2="11.946" y2="-8.636" width="0.508" layer="1"/>
-<wire x1="11.946" y1="-8.636" x2="11.811" y2="-8.771" width="0.508" layer="1"/>
-<wire x1="9.963" y1="-8.763" x2="11.803" y2="-8.763" width="0.508" layer="1"/>
+<wire x1="11.819" y1="-8.763" x2="11.811" y2="-8.771" width="0.508" layer="1"/>
 <wire x1="11.803" y1="-8.763" x2="11.811" y2="-8.771" width="0.508" layer="1"/>
+<wire x1="9.963" y1="-8.763" x2="11.819" y2="-8.763" width="0.508" layer="1"/>
+<wire x1="11.819" y1="-8.763" x2="11.946" y2="-8.636" width="0.508" layer="1"/>
 </signal>
 <signal name="OUT_A_MIX">
 <contactref element="R15" pad="2"/>
