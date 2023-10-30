@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1673,26 +1673,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
-<library name="CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC">
-<packages>
-<package name="XTAL_CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC">
-<wire x1="-1.6" y1="0.75" x2="-1.6" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-0.75" x2="1.6" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="-2" y1="1.15" x2="-2" y2="-1.15" width="0.05" layer="39"/>
-<wire x1="-2" y1="-1.15" x2="2" y2="-1.15" width="0.05" layer="39"/>
-<wire x1="2" y1="-1.15" x2="2" y2="1.15" width="0.05" layer="39"/>
-<wire x1="2" y1="1.15" x2="-2" y2="1.15" width="0.05" layer="39"/>
-<wire x1="-0.43" y1="0.75" x2="0.43" y2="0.75" width="0.127" layer="21"/>
-<wire x1="-0.43" y1="-0.75" x2="0.43" y2="-0.75" width="0.127" layer="21"/>
-<text x="-2" y="1.4" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2" y="-1.4" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
-<smd name="1" x="-1.25" y="0" dx="1" dy="1.8" layer="1"/>
-<smd name="2" x="1.25" y="0" dx="1" dy="1.8" layer="1"/>
-</package>
-</packages>
-</library>
 <library name="MAX5419NETA_">
 <packages>
 <package name="SON65P300X300X80-9N">
@@ -1750,6 +1730,38 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <smd name="7" x="1.485" y="0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
 <smd name="8" x="1.485" y="0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
 <smd name="9" x="0" y="0" dx="1.5" dy="2.3" layer="1" cream="no"/>
+</package>
+</packages>
+</library>
+<library name="ECS-245.7-20-3X-EN-TR">
+<packages>
+<package name="XTAL_ECS-245.7-20-3X-EN-TR">
+<wire x1="-3.5" y1="2.05" x2="-3.5" y2="-2.05" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-2.05" x2="3.5" y2="-2.05" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-2.05" x2="3.5" y2="2.05" width="0.127" layer="51"/>
+<wire x1="3.5" y1="2.05" x2="-3.5" y2="2.05" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="1.01" x2="-3.5" y2="2.05" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="2.05" x2="3.5" y2="2.05" width="0.127" layer="21"/>
+<wire x1="3.5" y1="2.05" x2="3.5" y2="1.01" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-1.01" x2="3.5" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-2.05" x2="-3.5" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-2.05" x2="-3.5" y2="-1.01" width="0.127" layer="21"/>
+<text x="-3.684209375" y="2.733090625" size="0.8146125" layer="25">&gt;NAME</text>
+<text x="-3.51708125" y="-3.50808125" size="0.81328125" layer="27">&gt;VALUE</text>
+<wire x1="3.75" y1="-2.3" x2="3.75" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-0.85" x2="4.75" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="4.75" y1="-0.85" x2="4.75" y2="0.85" width="0.05" layer="39"/>
+<wire x1="4.75" y1="0.85" x2="3.75" y2="0.85" width="0.05" layer="39"/>
+<wire x1="3.75" y1="0.85" x2="3.75" y2="2.3" width="0.05" layer="39"/>
+<wire x1="3.75" y1="2.3" x2="-3.75" y2="2.3" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="2.3" x2="-3.75" y2="0.85" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="0.85" x2="-4.75" y2="0.85" width="0.05" layer="39"/>
+<wire x1="-4.75" y1="0.85" x2="-4.75" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="-4.75" y1="-0.85" x2="-3.75" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-0.85" x2="-3.75" y2="-2.3" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-2.3" x2="3.75" y2="-2.3" width="0.05" layer="39"/>
+<smd name="1" x="-2.75" y="0" dx="3.5" dy="1.2" layer="1"/>
+<smd name="2" x="2.75" y="0" dx="3.5" dy="1.2" layer="1"/>
 </package>
 </packages>
 </library>
@@ -4649,18 +4661,18 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="15" x="99.187" y="61.214" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="99.187" y="61.214" size="0.0254" layer="28" rot="MR0"/>
 </element>
-<element name="Y2" library="CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC" package="XTAL_CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC" value="CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC" x="104.14" y="66.04" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="In Stock" x="104.14" y="66.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/CM7V-T1A-32.768kHz-12.5pF-100PPM-TB-QC/Micro+Crystal/view-part/?ref=eda" x="104.14" y="66.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Tuning Fork Crystal 32.768kHz in SMD 1.5 x 3.2 mm package " x="104.14" y="66.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Micro Crystal" x="104.14" y="66.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="CM7V-T1A-32.768kHz-12.5pF-100PPM-TB-QC" x="104.14" y="66.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="106.14" y="67.44" size="0.8128" layer="26" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="SMD-2 Micro Crystal" x="104.14" y="66.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="104.14" y="66.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4216772&amp;manufacturer=Micro Crystal&amp;part_name=CM7V-T1A-32.768kHz-12.5pF-100PPM-TB-QC&amp;search_term=None" x="104.14" y="66.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/CM7V-T1A-32.768kHz-12.5pF-100PPM-TB-QC/Micro+Crystal/view-part/?ref=snap" x="104.14" y="66.04" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="106.14" y="64.64" size="0.8128" layer="28" rot="MR0" align="top-left"/>
+<element name="Y2" library="ECS-245.7-20-3X-EN-TR" package="XTAL_ECS-245.7-20-3X-EN-TR" value="ECS-245.7-20-3X-EN-TR" x="106.68" y="68.58" smashed="yes" rot="MR270">
+<attribute name="AVAILABILITY" value="In Stock" x="106.68" y="68.58" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/ECS-245.7-20-3X-EN-TR/ECS+Inc./view-part/?ref=eda" x="106.68" y="68.58" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value=" 24.576 MHz ±30ppm Crystal 20pF 50 Ohms HC-49/US " x="106.68" y="68.58" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="ECS Inc." x="106.68" y="68.58" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MP" value="ECS-245.7-20-3X-EN-TR" x="106.68" y="68.58" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="105.28" y="70.58" size="0.8128" layer="26" rot="MR270" display="off"/>
+<attribute name="PACKAGE" value="HC49/US ECS International" x="106.68" y="68.58" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PRICE" value="None" x="106.68" y="68.58" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2461373&amp;manufacturer=ECS Inc.&amp;part_name=ECS-245.7-20-3X-EN-TR&amp;search_term=ecs-245.7-20-3x-en-tr" x="106.68" y="68.58" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ECS-245.7-20-3X-EN-TR/ECS+Inc./view-part/?ref=snap" x="106.68" y="68.58" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="108.08" y="70.58" size="0.8128" layer="28" rot="MR270" align="top-left"/>
 </element>
 <element name="C75" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF" x="105.41" y="62.23" smashed="yes" rot="MR270">
 <attribute name="NAME" x="104.775" y="62.865" size="1.27" layer="26" rot="MR270" display="off"/>
@@ -4668,11 +4680,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="105.41" y="62.23" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="107.315" y="62.865" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C76" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF" x="107.95" y="62.23" smashed="yes" rot="MR270">
-<attribute name="NAME" x="107.315" y="62.865" size="1.27" layer="26" rot="MR270" display="off"/>
-<attribute name="POPULARITY" value="16" x="107.95" y="62.23" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="107.95" y="62.23" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="109.855" y="62.865" size="1.27" layer="28" rot="MR270"/>
+<element name="C76" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF" x="106.68" y="62.23" smashed="yes" rot="MR270">
+<attribute name="NAME" x="106.045" y="62.865" size="1.27" layer="26" rot="MR270" display="off"/>
+<attribute name="POPULARITY" value="16" x="106.68" y="62.23" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="106.68" y="62.23" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="108.585" y="62.865" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C77" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="90.17" y="73.279" smashed="yes" rot="MR270">
 <attribute name="NAME" x="89.535" y="73.914" size="1.27" layer="26" rot="MR270" display="off"/>
@@ -5191,23 +5203,24 @@ design rules under a new name.</description>
 <contactref element="C75" pad="2"/>
 <contactref element="C76" pad="2"/>
 <wire x1="96.774" y1="67.31" x2="96.774" y2="68.072" width="0.2032" layer="16"/>
-<wire x1="107.95" y1="61.58" x2="105.41" y2="61.58" width="0.2032" layer="16"/>
+<wire x1="106.68" y1="61.58" x2="105.41" y2="61.58" width="0.2032" layer="16"/>
 <wire x1="105.41" y1="61.58" x2="101.3056" y2="65.6844" width="0.2032" layer="16"/>
 <wire x1="101.3056" y1="65.6844" x2="100.6534875" y2="65.6844" width="0.2032" layer="16"/>
 <wire x1="99.0278875" y1="67.31" x2="96.774" y2="67.31" width="0.2032" layer="16"/>
 <wire x1="100.6534875" y1="65.6844" x2="99.0278875" y2="67.31" width="0.2032" layer="16"/>
 <wire x1="99.79" y1="70.58" x2="99.886" y2="70.484" width="0.2032" layer="16"/>
 <wire x1="99.886" y1="70.484" x2="99.886" y2="69.7247875" width="0.2032" layer="16"/>
-<wire x1="107.95" y1="61.7207875" x2="107.95" y2="61.58" width="0.2032" layer="16"/>
-<wire x1="108.654" y1="62.4247875" x2="107.95" y2="61.7207875" width="0.2032" layer="16"/>
-<wire x1="99.886" y1="69.7247875" x2="102.0611875" y2="67.5496" width="0.2032" layer="16"/>
-<wire x1="102.0611875" y1="67.5496" x2="105.6396125" y2="67.5496" width="0.2032" layer="16"/>
-<wire x1="105.6396125" y1="67.5496" x2="108.654" y2="64.5352125" width="0.2032" layer="16"/>
-<wire x1="108.654" y1="64.5352125" x2="108.654" y2="62.4247875" width="0.2032" layer="16"/>
+<wire x1="99.886" y1="69.7247875" x2="101.95039375" y2="67.66039375" width="0.2032" layer="16"/>
 <via x="74.26655" y="71.12" extent="1-16" drill="0.508"/>
 <wire x1="2.7925" y1="161.0375" x2="2.6655" y2="161.1645" width="0.508" layer="1"/>
 <wire x1="26.9225" y1="162.3075" x2="26.7955" y2="162.4345" width="0.508" layer="1"/>
 <wire x1="97.29" y1="70.58" x2="97.29" y2="68.588" width="0.254" layer="16"/>
+<wire x1="101.95039375" y1="67.66039375" x2="103.378" y2="69.088" width="0.2032" layer="16"/>
+<wire x1="103.378" y1="69.088" x2="103.6102125" y2="69.088" width="0.2032" layer="16"/>
+<wire x1="103.378" y1="74.8042125" x2="103.378" y2="74.945" width="0.2032" layer="16"/>
+<wire x1="104.082" y1="74.1002125" x2="103.378" y2="74.8042125" width="0.2032" layer="16"/>
+<wire x1="103.6102125" y1="69.088" x2="104.082" y2="69.5597875" width="0.2032" layer="16"/>
+<wire x1="104.082" y1="69.5597875" x2="104.082" y2="74.1002125" width="0.2032" layer="16"/>
 </signal>
 <signal name="VDD">
 <contactref element="OPAMP1_MIX1" pad="8"/>
@@ -10593,12 +10606,13 @@ design rules under a new name.</description>
 <contactref element="C75" pad="1"/>
 <wire x1="98.29" y1="70.58" x2="98.386" y2="70.484" width="0.2032" layer="16"/>
 <wire x1="98.386" y1="70.484" x2="98.386" y2="68.4547875" width="0.2032" layer="16"/>
-<wire x1="98.386" y1="68.4547875" x2="100.8007875" y2="66.04" width="0.2032" layer="16"/>
+<wire x1="98.386" y1="68.4547875" x2="100.56539375" y2="66.27539375" width="0.2032" layer="16"/>
 <contactref element="Y2" pad="2"/>
-<wire x1="103.195" y1="65.095" x2="105.41" y2="62.88" width="0.2032" layer="16"/>
-<wire x1="100.8007875" y1="66.04" x2="102.89" y2="66.04" width="0.2032" layer="16"/>
-<wire x1="102.89" y1="66.04" x2="103.195" y2="65.735" width="0.508" layer="16"/>
-<wire x1="103.195" y1="65.735" x2="103.195" y2="65.095" width="0.508" layer="16"/>
+<wire x1="100.56539375" y1="66.27539375" x2="106.23460625" y2="66.27539375" width="0.2032" layer="16"/>
+<wire x1="106.23460625" y1="66.27539375" x2="106.575" y2="65.935" width="0.2032" layer="16"/>
+<wire x1="106.575" y1="65.935" x2="106.68" y2="65.83" width="0.2032" layer="16"/>
+<wire x1="105.41" y1="62.88" x2="105.41" y2="64.77" width="0.2032" layer="16"/>
+<wire x1="105.41" y1="64.77" x2="106.575" y2="65.935" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$117">
 <contactref element="IC2" pad="10"/>
@@ -10606,12 +10620,15 @@ design rules under a new name.</description>
 <contactref element="C76" pad="1"/>
 <wire x1="98.886" y1="69.7247875" x2="98.886" y2="70.484" width="0.2032" layer="16"/>
 <wire x1="98.79" y1="70.58" x2="98.886" y2="70.484" width="0.2032" layer="16"/>
-<wire x1="104.6492125" y1="66.04" x2="105.39" y2="66.04" width="0.2032" layer="16"/>
-<wire x1="103.4952125" y1="67.194" x2="104.6492125" y2="66.04" width="0.2032" layer="16"/>
 <wire x1="98.886" y1="69.7247875" x2="101.4167875" y2="67.194" width="0.2032" layer="16"/>
-<wire x1="101.4167875" y1="67.194" x2="103.4952125" y2="67.194" width="0.2032" layer="16"/>
-<wire x1="105.39" y1="66.04" x2="107.95" y2="63.48" width="0.2032" layer="16"/>
-<wire x1="107.95" y1="63.48" x2="107.95" y2="62.88" width="0.2032" layer="16"/>
+<wire x1="101.4167875" y1="67.194" x2="102.87" y2="67.194" width="0.2032" layer="16"/>
+<wire x1="102.87" y1="67.194" x2="106.68" y2="71.004" width="0.2032" layer="16"/>
+<wire x1="106.68" y1="71.004" x2="106.68" y2="71.33" width="0.2032" layer="16"/>
+<wire x1="106.68" y1="71.33" x2="106.68" y2="68.5392125" width="0.2032" layer="16"/>
+<wire x1="106.68" y1="68.5392125" x2="107.534" y2="67.6852125" width="0.2032" layer="16"/>
+<wire x1="107.534" y1="62.5747875" x2="107.534" y2="67.6852125" width="0.2032" layer="16"/>
+<wire x1="106.68" y1="62.88" x2="107.2287875" y2="62.88" width="0.2032" layer="16"/>
+<wire x1="107.2287875" y1="62.88" x2="107.534" y2="62.5747875" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$118">
 <contactref element="C84" pad="2"/>

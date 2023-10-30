@@ -9170,69 +9170,6 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </deviceset>
 </devicesets>
 </library>
-<library name="CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC">
-<packages>
-<package name="XTAL_CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC">
-<wire x1="-1.6" y1="0.75" x2="-1.6" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-0.75" x2="1.6" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="-2" y1="1.15" x2="-2" y2="-1.15" width="0.05" layer="39"/>
-<wire x1="-2" y1="-1.15" x2="2" y2="-1.15" width="0.05" layer="39"/>
-<wire x1="2" y1="-1.15" x2="2" y2="1.15" width="0.05" layer="39"/>
-<wire x1="2" y1="1.15" x2="-2" y2="1.15" width="0.05" layer="39"/>
-<wire x1="-0.43" y1="0.75" x2="0.43" y2="0.75" width="0.127" layer="21"/>
-<wire x1="-0.43" y1="-0.75" x2="0.43" y2="-0.75" width="0.127" layer="21"/>
-<text x="-2" y="1.4" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2" y="-1.4" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
-<smd name="1" x="-1.25" y="0" dx="1" dy="1.8" layer="1"/>
-<smd name="2" x="1.25" y="0" dx="1" dy="1.8" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC">
-<wire x1="-1.397" y1="2.54" x2="1.397" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="1.397" y1="2.54" x2="1.397" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.397" y1="-2.54" x2="-1.397" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-1.397" y1="2.54" x2="-1.397" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="2.3368" y1="2.54" x2="2.3368" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-2.3368" y1="2.54" x2="-2.3368" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-5.0878" y="3.81585" size="1.78073125" layer="95">&gt;NAME</text>
-<text x="-5.094390625" y="-5.094390625" size="1.78303125" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC" prefix="Y">
-<description> &lt;a href="https://pricing.snapeda.com/parts/CM7V-T1A-32.768kHz-12.5pF-100PPM-TB-QC/Micro%20Crystal/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XTAL_CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/CM7V-T1A-32.768kHz-12.5pF-100PPM-TB-QC/Micro+Crystal/view-part/?ref=eda"/>
-<attribute name="DESCRIPTION" value=" Tuning Fork Crystal 32.768kHz in SMD 1.5 x 3.2 mm package "/>
-<attribute name="MF" value="Micro Crystal"/>
-<attribute name="MP" value="CM7V-T1A-32.768kHz-12.5pF-100PPM-TB-QC"/>
-<attribute name="PACKAGE" value="SMD-2 Micro Crystal"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4216772&amp;manufacturer=Micro Crystal&amp;part_name=CM7V-T1A-32.768kHz-12.5pF-100PPM-TB-QC&amp;search_term=None"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/CM7V-T1A-32.768kHz-12.5pF-100PPM-TB-QC/Micro+Crystal/view-part/?ref=snap"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="MAX5419NETA_">
 <packages>
 <package name="SON65P300X300X80-9N">
@@ -9396,6 +9333,83 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <attribute name="PRICE" value="None"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=632565&amp;manufacturer=Analog Devices&amp;part_name=MAX5419PETA+&amp;search_term=max5419"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419PETA+/Analog+Devices/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="ECS-245.7-20-3X-EN-TR">
+<packages>
+<package name="XTAL_ECS-245.7-20-3X-EN-TR">
+<wire x1="-3.5" y1="2.05" x2="-3.5" y2="-2.05" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-2.05" x2="3.5" y2="-2.05" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-2.05" x2="3.5" y2="2.05" width="0.127" layer="51"/>
+<wire x1="3.5" y1="2.05" x2="-3.5" y2="2.05" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="1.01" x2="-3.5" y2="2.05" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="2.05" x2="3.5" y2="2.05" width="0.127" layer="21"/>
+<wire x1="3.5" y1="2.05" x2="3.5" y2="1.01" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-1.01" x2="3.5" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-2.05" x2="-3.5" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-2.05" x2="-3.5" y2="-1.01" width="0.127" layer="21"/>
+<text x="-3.684209375" y="2.733090625" size="0.8146125" layer="25">&gt;NAME</text>
+<text x="-3.51708125" y="-3.50808125" size="0.81328125" layer="27">&gt;VALUE</text>
+<wire x1="3.75" y1="-2.3" x2="3.75" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-0.85" x2="4.75" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="4.75" y1="-0.85" x2="4.75" y2="0.85" width="0.05" layer="39"/>
+<wire x1="4.75" y1="0.85" x2="3.75" y2="0.85" width="0.05" layer="39"/>
+<wire x1="3.75" y1="0.85" x2="3.75" y2="2.3" width="0.05" layer="39"/>
+<wire x1="3.75" y1="2.3" x2="-3.75" y2="2.3" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="2.3" x2="-3.75" y2="0.85" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="0.85" x2="-4.75" y2="0.85" width="0.05" layer="39"/>
+<wire x1="-4.75" y1="0.85" x2="-4.75" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="-4.75" y1="-0.85" x2="-3.75" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-0.85" x2="-3.75" y2="-2.3" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-2.3" x2="3.75" y2="-2.3" width="0.05" layer="39"/>
+<smd name="1" x="-2.75" y="0" dx="3.5" dy="1.2" layer="1"/>
+<smd name="2" x="2.75" y="0" dx="3.5" dy="1.2" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ECS-245.7-20-3X-EN-TR">
+<text x="-5.09521875" y="2.547609375" size="1.78333125" layer="95">&gt;NAME</text>
+<text x="-5.091409375" y="-3.81855" size="1.781990625" layer="96">&gt;VALUE</text>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ECS-245.7-20-3X-EN-TR" prefix="Y">
+<description>SMD QUARTZ CRYSTAL &lt;a href="https://pricing.snapeda.com/parts/ECS-245.7-20-3X-EN-TR/ECS%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ECS-245.7-20-3X-EN-TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XTAL_ECS-245.7-20-3X-EN-TR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/ECS-245.7-20-3X-EN-TR/ECS+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" 24.576 MHz ±30ppm Crystal 20pF 50 Ohms HC-49/US "/>
+<attribute name="MF" value="ECS Inc."/>
+<attribute name="MP" value="ECS-245.7-20-3X-EN-TR"/>
+<attribute name="PACKAGE" value="HC49/US ECS International"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2461373&amp;manufacturer=ECS Inc.&amp;part_name=ECS-245.7-20-3X-EN-TR&amp;search_term=ecs-245.7-20-3x-en-tr"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ECS-245.7-20-3X-EN-TR/ECS+Inc./view-part/?ref=snap"/>
 </technology>
 </technologies>
 </device>
@@ -9797,7 +9811,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="LRCK_ADC1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="BCK_ADC1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="DOUT_ADC1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
-<part name="Y2" library="CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC" deviceset="CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC" device=""/>
+<part name="Y2" library="ECS-245.7-20-3X-EN-TR" deviceset="ECS-245.7-20-3X-EN-TR" device=""/>
 <part name="C75" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF"/>
 <part name="C76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="15pF"/>
 <part name="C77" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
