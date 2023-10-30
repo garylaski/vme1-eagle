@@ -9605,7 +9605,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="D16" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D17" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D18" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680p"/>
+<part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680pF"/>
 <part name="D19" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="R89" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R90" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
@@ -9625,7 +9625,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="10POT2_COMP1" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="200POT2_COMP1" library="MAX5419NETA_" deviceset="MAX5419NETA+" device=""/>
 <part name="200POT1_COMP1" library="MAX5419NETA_" deviceset="MAX5419NETA+" device=""/>
-<part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5u"/>
+<part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5uF"/>
 <part name="OPAMP1_COMP1" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP2_COMP1" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP3_COMP1" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
@@ -9648,7 +9648,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="D38" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D39" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D40" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="C48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680p"/>
+<part name="C48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680pF"/>
 <part name="D41" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="R125" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R126" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
@@ -9668,7 +9668,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="10POT2_COMP3" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="200POT2_COMP3" library="MAX5419PETAT" deviceset="MAX5419PETAT" device=""/>
 <part name="200POT1_COMP3" library="MAX5419PETAT" deviceset="MAX5419PETAT" device=""/>
-<part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5u"/>
+<part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5uF"/>
 <part name="OPAMP1_COMP3" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP2_COMP3" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP3_COMP3" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
@@ -9691,7 +9691,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="D27" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D28" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D29" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="C45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680p"/>
+<part name="C45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680pF"/>
 <part name="D30" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="R107" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R108" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
@@ -9711,7 +9711,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="10POT2_COMP2" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="200POT2_COMP2" library="MAX5419LETA_" deviceset="MAX5419META+" device=""/>
 <part name="200POT1_COMP2" library="MAX5419LETA_" deviceset="MAX5419META+" device=""/>
-<part name="C47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5u"/>
+<part name="C47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5uF"/>
 <part name="OPAMP1_COMP2" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP2_COMP2" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP3_COMP2" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
@@ -9734,7 +9734,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="D60" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D61" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D62" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="C54" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680p"/>
+<part name="C54" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680pF"/>
 <part name="D63" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="R161" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R162" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
@@ -9754,7 +9754,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="10POT2_COMP5" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="200POT2_COMP5" library="MAX5419LETA_" deviceset="MAX5419LETA+" device=""/>
 <part name="200POT1_COMP5" library="MAX5419LETA_" deviceset="MAX5419LETA+" device=""/>
-<part name="C56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5u"/>
+<part name="C56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5uF"/>
 <part name="OPAMP1_COMP5" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP2_COMP5" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP3_COMP5" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
