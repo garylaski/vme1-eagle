@@ -274,6 +274,11 @@ UsedLibrary="/home/gary/EAGLE/libraries/NC7SV157P6X.lbr"
 UsedLibrary="/home/gary/EAGLE/libraries/TCA9546ADR.lbr"
 UsedLibrary="/home/gary/EAGLE/libraries/TMUX1204DGSR.lbr"
 UsedLibrary="/home/gary/EAGLE/libraries/con-neutrik_ag.lbr"
+UsedLibrary="/home/gary/EAGLE/libraries/CM7V-T1A-32.768KHZ-12.5PF-100PPM-TB-QC.lbr"
+UsedLibrary="/home/gary/dls/MAX5419PETAT.lbr"
+UsedLibrary="/home/gary/dls/MAX5419NETA_.lbr"
+UsedLibrary="/home/gary/dls/MAX5419LETA_.lbr"
+UsedLibrary="/home/gary/dls/MAX5419META_.lbr"
 
 [Win_1]
 Type="Control Panel"

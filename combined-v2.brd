@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1693,6 +1693,66 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="MAX5419NETA_">
+<packages>
+<package name="SON65P300X300X80-9N">
+<rectangle x1="-0.47" y1="-0.73" x2="0.47" y2="0.73" layer="31"/>
+<circle x="-2.445" y="0.975" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.445" y="0.975" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-2.115" y1="1.8" x2="2.115" y2="1.8" width="0.05" layer="39"/>
+<wire x1="-2.115" y1="-1.8" x2="2.115" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="-2.115" y1="1.8" x2="-2.115" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="2.115" y1="1.8" x2="2.115" y2="-1.8" width="0.05" layer="39"/>
+<text x="-2.31" y="-1.727" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-2.31" y="1.727" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-1.485" y="0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="2" x="-1.485" y="0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="3" x="-1.485" y="-0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="4" x="-1.485" y="-0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="5" x="1.485" y="-0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="6" x="1.485" y="-0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="7" x="1.485" y="0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="8" x="1.485" y="0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="9" x="0" y="0" dx="1.5" dy="2.3" layer="1" cream="no"/>
+</package>
+</packages>
+</library>
+<library name="MAX5419PETAT">
+<packages>
+<package name="SON65P300X300X80-9N">
+<rectangle x1="-0.47" y1="-0.73" x2="0.47" y2="0.73" layer="31"/>
+<circle x="-2.445" y="0.975" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.445" y="0.975" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-2.115" y1="1.8" x2="2.115" y2="1.8" width="0.05" layer="39"/>
+<wire x1="-2.115" y1="-1.8" x2="2.115" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="-2.115" y1="1.8" x2="-2.115" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="2.115" y1="1.8" x2="2.115" y2="-1.8" width="0.05" layer="39"/>
+<text x="-2.31" y="-1.727" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-2.31" y="1.727" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-1.485" y="0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="2" x="-1.485" y="0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="3" x="-1.485" y="-0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="4" x="-1.485" y="-0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="5" x="1.485" y="-0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="6" x="1.485" y="-0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="7" x="1.485" y="0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="8" x="1.485" y="0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="9" x="0" y="0" dx="1.5" dy="2.3" layer="1" cream="no"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3109,30 +3169,30 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MCP4131-503E/SN/Microchip/view-part/?ref=snap" x="-44.45" y="115.57" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-3.972" y="163.595" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="200POT2_COMP1" library="MAX5419LETA_" package="SON65P300X300X80-9N" value="MAX5419LETA+" x="10.414" y="108.458" smashed="yes" rot="R180">
+<element name="200POT2_COMP1" library="MAX5419NETA_" package="SON65P300X300X80-9N" value="MAX5419NETA+" x="10.414" y="108.458" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=eda" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419NETA+/Analog+Devices/view-part/?ref=eda" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" 256-Tap, Nonvolatile, I²C-Interface, Digital Potentiometers " x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Analog Devices" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="MAX5419LETA+" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="MAX5419NETA+" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.724" y="106.731" size="1.27" layer="25" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="TDFN-EP-8 Maxim" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=895758&amp;manufacturer=Analog Devices&amp;part_name=MAX5419LETA+&amp;search_term=max541" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=snap" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=632563&amp;manufacturer=Analog Devices&amp;part_name=MAX5419NETA+&amp;search_term=max5419" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419NETA+/Analog+Devices/view-part/?ref=snap" x="-50.546" y="150.368" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="12.724" y="110.185" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="200POT1_COMP1" library="MAX5419LETA_" package="SON65P300X300X80-9N" value="MAX5419LETA+" x="10.414" y="113.157" smashed="yes" rot="R180">
+<element name="200POT1_COMP1" library="MAX5419NETA_" package="SON65P300X300X80-9N" value="MAX5419NETA+" x="10.414" y="113.157" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=eda" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419NETA+/Analog+Devices/view-part/?ref=eda" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" 256-Tap, Nonvolatile, I²C-Interface, Digital Potentiometers " x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Analog Devices" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="MAX5419LETA+" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="MAX5419NETA+" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.724" y="111.43" size="1.27" layer="25" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="TDFN-EP-8 Maxim" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=895758&amp;manufacturer=Analog Devices&amp;part_name=MAX5419LETA+&amp;search_term=max541" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=snap" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=632563&amp;manufacturer=Analog Devices&amp;part_name=MAX5419NETA+&amp;search_term=max5419" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419NETA+/Analog+Devices/view-part/?ref=snap" x="-14.986" y="165.227" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="12.724" y="114.884" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
 <element name="OPAMP1_COMP1" library="LM4562MAX_NOPB" package="SOIC127P599X175-8N" value="LM4562MAX/NOPB" x="7.366" y="127.762" smashed="yes" rot="R90">
@@ -3493,30 +3553,30 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MCP4131-503E/SN/Microchip/view-part/?ref=snap" x="-20.32" y="116.84" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="20.158" y="164.865" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="200POT2_COMP3" library="MAX5419LETA_" package="SON65P300X300X80-9N" value="MAX5419LETA+" x="34.544" y="109.728" smashed="yes" rot="R180">
+<element name="200POT2_COMP3" library="MAX5419PETAT" package="SON65P300X300X80-9N" value="MAX5419PETAT" x="34.544" y="109.728" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=eda" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419PETA+/Analog+Devices/view-part/?ref=eda" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" 256-Tap, Nonvolatile, I²C-Interface, Digital Potentiometers " x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Analog Devices" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="MAX5419LETA+" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="MAX5419PETA+" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.854" y="108.001" size="1.27" layer="25" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="TDFN-EP-8 Maxim" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=895758&amp;manufacturer=Analog Devices&amp;part_name=MAX5419LETA+&amp;search_term=max541" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=snap" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=632565&amp;manufacturer=Analog Devices&amp;part_name=MAX5419PETA+&amp;search_term=max5419" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419PETA+/Analog+Devices/view-part/?ref=snap" x="-26.416" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="36.854" y="111.455" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="200POT1_COMP3" library="MAX5419LETA_" package="SON65P300X300X80-9N" value="MAX5419LETA+" x="34.544" y="114.427" smashed="yes" rot="R180">
+<element name="200POT1_COMP3" library="MAX5419PETAT" package="SON65P300X300X80-9N" value="MAX5419PETAT" x="34.544" y="114.427" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=eda" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419PETA+/Analog+Devices/view-part/?ref=eda" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" 256-Tap, Nonvolatile, I²C-Interface, Digital Potentiometers " x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Analog Devices" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="MAX5419LETA+" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="MAX5419PETA+" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.854" y="112.7" size="1.27" layer="25" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="TDFN-EP-8 Maxim" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=895758&amp;manufacturer=Analog Devices&amp;part_name=MAX5419LETA+&amp;search_term=max541" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=snap" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=632565&amp;manufacturer=Analog Devices&amp;part_name=MAX5419PETA+&amp;search_term=max5419" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419PETA+/Analog+Devices/view-part/?ref=snap" x="9.144" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="36.854" y="116.154" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
 <element name="OPAMP1_COMP3" library="LM4562MAX_NOPB" package="SOIC127P599X175-8N" value="LM4562MAX/NOPB" x="31.496" y="129.032" smashed="yes" rot="R90">
@@ -3877,7 +3937,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MCP4131-503E/SN/Microchip/view-part/?ref=snap" x="6.35" y="116.84" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="46.828" y="164.865" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="200POT2_COMP2" library="MAX5419LETA_" package="SON65P300X300X80-9N" value="MAX5419LETA+" x="61.214" y="109.728" smashed="yes" rot="R180">
+<element name="200POT2_COMP2" library="MAX5419LETA_" package="SON65P300X300X80-9N" value="MAX5419META+" x="61.214" y="109.728" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="0.254" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=eda" x="0.254" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" 256-Tap, Nonvolatile, I²C-Interface, Digital Potentiometers " x="0.254" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3890,7 +3950,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=snap" x="0.254" y="151.638" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="63.524" y="111.455" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="200POT1_COMP2" library="MAX5419LETA_" package="SON65P300X300X80-9N" value="MAX5419LETA+" x="61.214" y="114.427" smashed="yes" rot="R180">
+<element name="200POT1_COMP2" library="MAX5419LETA_" package="SON65P300X300X80-9N" value="MAX5419META+" x="61.214" y="114.427" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="35.814" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=eda" x="35.814" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" 256-Tap, Nonvolatile, I²C-Interface, Digital Potentiometers " x="35.814" y="166.497" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7002,14 +7062,14 @@ design rules under a new name.</description>
 <wire x1="60.19" y1="176.665" x2="60.706" y2="176.149" width="0.2032" layer="16"/>
 <via x="60.706" y="176.149" extent="1-16" drill="0.508"/>
 <wire x1="90.04" y1="99.695" x2="92.71" y2="99.695" width="0.508" layer="1"/>
-<wire x1="92.71" y1="99.695" x2="92.71" y2="97.79" width="0.508" layer="1"/>
-<wire x1="92.71" y1="97.79" x2="92.637" y2="97.79" width="0.508" layer="1"/>
-<via x="92.637" y="97.79" extent="1-16" drill="0.508"/>
+<wire x1="92.71" y1="99.695" x2="92.71" y2="97.663" width="0.508" layer="1"/>
+<wire x1="92.71" y1="97.663" x2="92.383" y2="97.663" width="0.508" layer="1"/>
+<via x="92.383" y="97.663" extent="1-16" drill="0.508"/>
 <wire x1="86.20311875" y1="166.497" x2="83.05588125" y2="166.497" width="0.508" layer="16"/>
 <wire x1="60.706" y1="166.1635" x2="58.59238125" y2="166.1635" width="0.508" layer="16"/>
 <wire x1="58.0865" y1="166.66938125" x2="58.0865" y2="171.1673" width="0.508" layer="16"/>
-<wire x1="92.637" y1="97.79" x2="92.637" y2="110.0235875" width="0.508" layer="16"/>
-<wire x1="92.637" y1="110.0235875" x2="93.3558" y2="110.0235875" width="0.508" layer="16"/>
+<wire x1="92.383" y1="97.663" x2="92.383" y2="110.0235875" width="0.508" layer="16"/>
+<wire x1="92.383" y1="110.0235875" x2="93.3558" y2="110.0235875" width="0.508" layer="16"/>
 <wire x1="93.3558" y1="110.0235875" x2="94.361" y2="111.0287875" width="0.508" layer="16"/>
 <wire x1="84.838728125" y1="132.7912" x2="84.838728125" y2="161.5948" width="0.508" layer="16"/>
 <wire x1="86.7885" y1="165.91161875" x2="86.20311875" y2="166.497" width="0.508" layer="16"/>
@@ -10605,9 +10665,9 @@ design rules under a new name.</description>
 <signal name="N$128">
 <contactref element="C80" pad="2"/>
 <contactref element="IC2" pad="27"/>
-<wire x1="95.79" y1="53.435" x2="95.79" y2="64.04" width="0.2032" layer="16"/>
 <wire x1="97.282" y1="53.228" x2="95.997" y2="53.228" width="0.2032" layer="16"/>
-<wire x1="95.997" y1="53.228" x2="95.79" y2="53.435" width="0.2032" layer="16"/>
+<wire x1="95.79" y1="53.435" x2="95.997" y2="53.228" width="0.2032" layer="16"/>
+<wire x1="95.79" y1="64.04" x2="95.79" y2="53.435" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$183">
 <contactref element="IC2" pad="30"/>

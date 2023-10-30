@@ -8768,6 +8768,40 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="MAX5419META+" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/MAX5419LETA%2B/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="MAX5419LETA+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON65P300X300X80-9N">
+<connects>
+<connect gate="A" pin="A0" pad="4"/>
+<connect gate="A" pin="EPAD" pad="9"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="H" pad="8"/>
+<connect gate="A" pin="L" pad="6"/>
+<connect gate="A" pin="SCL" pad="2"/>
+<connect gate="A" pin="SDA" pad="3"/>
+<connect gate="A" pin="VDD" pad="1"/>
+<connect gate="A" pin="W" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" 256-Tap, Nonvolatile, I²C-Interface, Digital Potentiometers "/>
+<attribute name="MF" value="Analog Devices"/>
+<attribute name="MP" value="MAX5419LETA+"/>
+<attribute name="PACKAGE" value="TDFN-EP-8 Maxim"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=895758&amp;manufacturer=Analog Devices&amp;part_name=MAX5419LETA+&amp;search_term=max541"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419LETA+/Analog+Devices/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="MAX5419LETA+" prefix="U">
 <description> &lt;a href="https://pricing.snapeda.com/parts/MAX5419LETA%2B/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -9199,6 +9233,176 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </deviceset>
 </devicesets>
 </library>
+<library name="MAX5419NETA_">
+<packages>
+<package name="SON65P300X300X80-9N">
+<rectangle x1="-0.47" y1="-0.73" x2="0.47" y2="0.73" layer="31"/>
+<circle x="-2.445" y="0.975" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.445" y="0.975" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-2.115" y1="1.8" x2="2.115" y2="1.8" width="0.05" layer="39"/>
+<wire x1="-2.115" y1="-1.8" x2="2.115" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="-2.115" y1="1.8" x2="-2.115" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="2.115" y1="1.8" x2="2.115" y2="-1.8" width="0.05" layer="39"/>
+<text x="-2.31" y="-1.727" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-2.31" y="1.727" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-1.485" y="0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="2" x="-1.485" y="0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="3" x="-1.485" y="-0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="4" x="-1.485" y="-0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="5" x="1.485" y="-0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="6" x="1.485" y="-0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="7" x="1.485" y="0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="8" x="1.485" y="0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="9" x="0" y="0" dx="1.5" dy="2.3" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MAX5419NETA+">
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.41" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="-20.32" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.41" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="20.32" width="0.41" layer="94"/>
+<text x="-12.7" y="21.32" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-12.7" y="-24.32" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="A0" x="-17.78" y="12.7" length="middle" direction="in"/>
+<pin name="SCL" x="-17.78" y="10.16" length="middle" direction="in"/>
+<pin name="SDA" x="-17.78" y="7.62" length="middle" direction="in"/>
+<pin name="H" x="-17.78" y="2.54" length="middle"/>
+<pin name="L" x="-17.78" y="-2.54" length="middle"/>
+<pin name="W" x="-17.78" y="-7.62" length="middle"/>
+<pin name="VDD" x="17.78" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="EPAD" x="17.78" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="17.78" y="-15.24" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX5419NETA+" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/MAX5419NETA%2B/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="MAX5419NETA+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON65P300X300X80-9N">
+<connects>
+<connect gate="A" pin="A0" pad="4"/>
+<connect gate="A" pin="EPAD" pad="9"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="H" pad="8"/>
+<connect gate="A" pin="L" pad="6"/>
+<connect gate="A" pin="SCL" pad="2"/>
+<connect gate="A" pin="SDA" pad="3"/>
+<connect gate="A" pin="VDD" pad="1"/>
+<connect gate="A" pin="W" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419NETA+/Analog+Devices/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" 256-Tap, Nonvolatile, I²C-Interface, Digital Potentiometers "/>
+<attribute name="MF" value="Analog Devices"/>
+<attribute name="MP" value="MAX5419NETA+"/>
+<attribute name="PACKAGE" value="TDFN-EP-8 Maxim"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=632563&amp;manufacturer=Analog Devices&amp;part_name=MAX5419NETA+&amp;search_term=max5419"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419NETA+/Analog+Devices/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="MAX5419PETAT">
+<packages>
+<package name="SON65P300X300X80-9N">
+<rectangle x1="-0.47" y1="-0.73" x2="0.47" y2="0.73" layer="31"/>
+<circle x="-2.445" y="0.975" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.445" y="0.975" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-2.115" y1="1.8" x2="2.115" y2="1.8" width="0.05" layer="39"/>
+<wire x1="-2.115" y1="-1.8" x2="2.115" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="-2.115" y1="1.8" x2="-2.115" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="2.115" y1="1.8" x2="2.115" y2="-1.8" width="0.05" layer="39"/>
+<text x="-2.31" y="-1.727" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-2.31" y="1.727" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-1.485" y="0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="2" x="-1.485" y="0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="3" x="-1.485" y="-0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="4" x="-1.485" y="-0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="5" x="1.485" y="-0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="6" x="1.485" y="-0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="7" x="1.485" y="0.325" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="8" x="1.485" y="0.975" dx="0.76" dy="0.32" layer="1" roundness="25"/>
+<smd name="9" x="0" y="0" dx="1.5" dy="2.3" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MAX5419PETAT">
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.41" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="-20.32" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.41" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="20.32" width="0.41" layer="94"/>
+<text x="-12.7" y="21.32" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-12.7" y="-24.32" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="A0" x="-17.78" y="12.7" length="middle" direction="in"/>
+<pin name="SCL" x="-17.78" y="10.16" length="middle" direction="in"/>
+<pin name="SDA" x="-17.78" y="7.62" length="middle" direction="in"/>
+<pin name="H" x="-17.78" y="2.54" length="middle"/>
+<pin name="L" x="-17.78" y="-2.54" length="middle"/>
+<pin name="W" x="-17.78" y="-7.62" length="middle"/>
+<pin name="VDD" x="17.78" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="EPAD" x="17.78" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="17.78" y="-15.24" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX5419PETAT" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/MAX5419PETA%2B/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="MAX5419PETAT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON65P300X300X80-9N">
+<connects>
+<connect gate="A" pin="A0" pad="4"/>
+<connect gate="A" pin="EPAD" pad="9"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="H" pad="8"/>
+<connect gate="A" pin="L" pad="6"/>
+<connect gate="A" pin="SCL" pad="2"/>
+<connect gate="A" pin="SDA" pad="3"/>
+<connect gate="A" pin="VDD" pad="1"/>
+<connect gate="A" pin="W" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX5419PETA+/Analog+Devices/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" 256-Tap, Nonvolatile, I²C-Interface, Digital Potentiometers "/>
+<attribute name="MF" value="Analog Devices"/>
+<attribute name="MP" value="MAX5419PETA+"/>
+<attribute name="PACKAGE" value="TDFN-EP-8 Maxim"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=632565&amp;manufacturer=Analog Devices&amp;part_name=MAX5419PETA+&amp;search_term=max5419"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX5419PETA+/Analog+Devices/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9405,8 +9609,8 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="100POT1_COMP1" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP1" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="10POT2_COMP1" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
-<part name="200POT2_COMP1" library="MAX5419LETA_" deviceset="MAX5419LETA+" device=""/>
-<part name="200POT1_COMP1" library="MAX5419LETA_" deviceset="MAX5419LETA+" device=""/>
+<part name="200POT2_COMP1" library="MAX5419NETA_" deviceset="MAX5419NETA+" device=""/>
+<part name="200POT1_COMP1" library="MAX5419NETA_" deviceset="MAX5419NETA+" device=""/>
 <part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5u"/>
 <part name="OPAMP1_COMP1" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP2_COMP1" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
@@ -9448,8 +9652,8 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="100POT1_COMP3" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP3" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="10POT2_COMP3" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
-<part name="200POT2_COMP3" library="MAX5419LETA_" deviceset="MAX5419LETA+" device=""/>
-<part name="200POT1_COMP3" library="MAX5419LETA_" deviceset="MAX5419LETA+" device=""/>
+<part name="200POT2_COMP3" library="MAX5419PETAT" deviceset="MAX5419PETAT" device=""/>
+<part name="200POT1_COMP3" library="MAX5419PETAT" deviceset="MAX5419PETAT" device=""/>
 <part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5u"/>
 <part name="OPAMP1_COMP3" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP2_COMP3" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
@@ -9491,8 +9695,8 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="100POT1_COMP2" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP2" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="10POT2_COMP2" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
-<part name="200POT2_COMP2" library="MAX5419LETA_" deviceset="MAX5419LETA+" device=""/>
-<part name="200POT1_COMP2" library="MAX5419LETA_" deviceset="MAX5419LETA+" device=""/>
+<part name="200POT2_COMP2" library="MAX5419LETA_" deviceset="MAX5419META+" device=""/>
+<part name="200POT1_COMP2" library="MAX5419LETA_" deviceset="MAX5419META+" device=""/>
 <part name="C47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1.5u"/>
 <part name="OPAMP1_COMP2" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="OPAMP2_COMP2" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
@@ -11112,9 +11316,9 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <attribute name="NAME" x="293.116" y="724.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="293.116" y="719.709" size="1.778" layer="96"/>
 </instance>
-<instance part="C80" gate="G$1" x="302.26" y="723.9" smashed="yes">
-<attribute name="NAME" x="303.276" y="724.535" size="1.778" layer="95"/>
-<attribute name="VALUE" x="303.276" y="719.709" size="1.778" layer="96"/>
+<instance part="C80" gate="G$1" x="279.4" y="690.88" smashed="yes">
+<attribute name="NAME" x="280.416" y="691.515" size="1.778" layer="95"/>
+<attribute name="VALUE" x="280.416" y="686.689" size="1.778" layer="96"/>
 </instance>
 <instance part="C81" gate="G$1" x="276.86" y="734.06" smashed="yes">
 <attribute name="NAME" x="277.876" y="734.695" size="1.778" layer="95"/>
@@ -12966,7 +13170,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </segment>
 <segment>
 <pinref part="C80" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="726.44" x2="302.26" y2="734.06" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="693.42" x2="302.26" y2="734.06" width="0.1524" layer="91"/>
 <label x="302.26" y="734.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -16746,7 +16950,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <segment>
 <pinref part="C80" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="G$1" pin="VINL4/VIN4M"/>
-<wire x1="302.26" y1="718.82" x2="302.26" y2="685.8" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="685.8" x2="302.26" y2="685.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$183" class="0">
