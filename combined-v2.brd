@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1268,46 +1268,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </library>
 <library name="1N4148W-TP">
 <packages>
-<package name="SOD123-L">
-<wire x1="-1.4224" y1="-0.3302" x2="-1.4224" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.3302" x2="-1.9304" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.9304" y1="0.3302" x2="-1.9304" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.9304" y1="-0.3302" x2="-1.4224" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="0.3302" x2="1.4224" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.3302" x2="1.9304" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.9304" y1="-0.3302" x2="1.9304" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="1.9304" y1="0.3302" x2="1.4224" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.4572" x2="-0.9652" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.4572" x2="-0.9652" y2="-0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.9144" x2="1.4224" y2="-0.9144" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.9144" x2="1.4224" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.9144" x2="-1.4224" y2="-0.9144" width="0.1524" layer="51"/>
-<text x="-1.7526" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<wire x1="-1.5494" y1="-1.016" x2="1.5494" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="-1.016" x2="1.5494" y2="-0.6604" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="1.016" x2="-1.5494" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-1.5494" y1="1.016" x2="-1.5494" y2="0.6604" width="0.1524" layer="21"/>
-<wire x1="-1.5494" y1="-0.6604" x2="-1.5494" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="0.6604" x2="1.5494" y2="1.016" width="0.1524" layer="21"/>
-<text x="-3.048" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;VALUE</text>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.4732" y="0.8509"/>
-<vertex x="1.4732" y="0.8509"/>
-<vertex x="1.4732" y="-0.8509"/>
-<vertex x="-1.4732" y="-0.8509"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.4732" y="0.8509"/>
-<vertex x="1.4732" y="0.8509"/>
-<vertex x="1.4732" y="-0.8509"/>
-<vertex x="-1.4732" y="-0.8509"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<smd name="1" x="-1.8034" y="0" dx="0.5588" dy="0.6604" layer="1"/>
-<smd name="2" x="1.8034" y="0" dx="0.5588" dy="0.6604" layer="1"/>
-</package>
 <package name="SOD123">
 <wire x1="-1.4224" y1="-0.3302" x2="-1.4224" y2="0.3302" width="0.1524" layer="51"/>
 <wire x1="-1.4224" y1="0.3302" x2="-1.9304" y2="0.3302" width="0.1524" layer="51"/>
@@ -1958,7 +1918,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u" x="48.768" y="53.721" smashed="yes" rot="R270">
+<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF" x="48.768" y="53.721" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.403" y="54.356" size="1.27" layer="25" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="16" x="36.068" y="37.211" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="36.068" y="37.211" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2167,7 +2127,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-5.842" y="59.436" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="35.433" y="54.991" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u" x="36.068" y="53.594" smashed="yes" rot="R270">
+<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF" x="36.068" y="53.594" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.703" y="54.229" size="1.27" layer="25" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="16" x="-40.132" y="63.754" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-40.132" y="63.754" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2243,7 +2203,7 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=21165&amp;manufacturer=Texas Instruments&amp;part_name=LM4562MAX/NOPB&amp;search_term=lm4562" x="2.54" y="93.345" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LM4562MAX/NOPB/Texas+Instruments/view-part/?ref=snap" x="2.54" y="93.345" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D2" library="1N4148W-TP" package="SOD123-L" value="1N4148W-TPSOD123-L" x="34.544" y="94.742" smashed="yes" rot="R270">
+<element name="D2" library="1N4148W-TP" package="SOD123" value="1N4148W-TP" x="34.544" y="94.742" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="34.544" y="94.742" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148W-TP/Micro+Commercial+Components/view-part/?ref=eda" x="34.544" y="94.742" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" 1N4148W Series 100 V 150 mA 4 ns SMT High Speed Switching Diode - SOD-123 " x="34.544" y="94.742" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2321,7 +2281,7 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=21165&amp;manufacturer=Texas Instruments&amp;part_name=LM4562MAX/NOPB&amp;search_term=lm4562" x="-34.29" y="90.805" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LM4562MAX/NOPB/Texas+Instruments/view-part/?ref=snap" x="-34.29" y="90.805" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D4" library="1N4148W-TP" package="SOD123-L" value="1N4148W-TPSOD123-L" x="-2.286" y="92.202" smashed="yes" rot="R270">
+<element name="D4" library="1N4148W-TP" package="SOD123" value="1N4148W-TP" x="-2.286" y="92.202" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="-2.286" y="92.202" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148W-TP/Micro+Commercial+Components/view-part/?ref=eda" x="-2.286" y="92.202" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" 1N4148W Series 100 V 150 mA 4 ns SMT High Speed Switching Diode - SOD-123 " x="-2.286" y="92.202" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2399,7 +2359,7 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=21165&amp;manufacturer=Texas Instruments&amp;part_name=LM4562MAX/NOPB&amp;search_term=lm4562" x="25.4" y="92.075" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LM4562MAX/NOPB/Texas+Instruments/view-part/?ref=snap" x="25.4" y="92.075" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D3" library="1N4148W-TP" package="SOD123-L" value="1N4148W-TPSOD123-L" x="57.404" y="93.472" smashed="yes" rot="R270">
+<element name="D3" library="1N4148W-TP" package="SOD123" value="1N4148W-TP" x="57.404" y="93.472" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="57.404" y="93.472" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148W-TP/Micro+Commercial+Components/view-part/?ref=eda" x="57.404" y="93.472" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" 1N4148W Series 100 V 150 mA 4 ns SMT High Speed Switching Diode - SOD-123 " x="57.404" y="93.472" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2477,7 +2437,7 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=21165&amp;manufacturer=Texas Instruments&amp;part_name=LM4562MAX/NOPB&amp;search_term=lm4562" x="66.04" y="94.615" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LM4562MAX/NOPB/Texas+Instruments/view-part/?ref=snap" x="66.04" y="94.615" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D5" library="1N4148W-TP" package="SOD123-L" value="1N4148W-TPSOD123-L" x="98.044" y="96.012" smashed="yes" rot="R270">
+<element name="D5" library="1N4148W-TP" package="SOD123" value="1N4148W-TP" x="98.044" y="96.012" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="98.044" y="96.012" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148W-TP/Micro+Commercial+Components/view-part/?ref=eda" x="98.044" y="96.012" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" 1N4148W Series 100 V 150 mA 4 ns SMT High Speed Switching Diode - SOD-123 " x="98.044" y="96.012" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2897,7 +2857,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="69.977" y="66.294" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="2.032" y="129.159" size="1.27" layer="27"/>
 </element>
-<element name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10u" x="-4.826" y="160.909" smashed="yes" rot="R90">
+<element name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="-4.826" y="160.909" smashed="yes" rot="R90">
 <attribute name="NAME" x="-5.461" y="160.274" size="1.27" layer="25" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="16" x="71.374" y="226.949" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="71.374" y="226.949" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3281,7 +3241,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="94.107" y="67.564" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="26.162" y="130.429" size="1.27" layer="27"/>
 </element>
-<element name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10u" x="19.304" y="162.179" smashed="yes" rot="R90">
+<element name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="19.304" y="162.179" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.669" y="161.544" size="1.27" layer="25" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="16" x="95.504" y="228.219" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="95.504" y="228.219" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3665,7 +3625,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="120.777" y="67.564" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="52.832" y="130.429" size="1.27" layer="27"/>
 </element>
-<element name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10u" x="45.974" y="162.179" smashed="yes" rot="R90">
+<element name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="45.974" y="162.179" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.339" y="161.544" size="1.27" layer="25" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="16" x="122.174" y="228.219" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="122.174" y="228.219" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4049,7 +4009,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="148.717" y="70.104" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="80.772" y="132.969" size="1.27" layer="27"/>
 </element>
-<element name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10u" x="73.914" y="164.719" smashed="yes" rot="R90">
+<element name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="73.914" y="164.719" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.279" y="164.084" size="1.27" layer="25" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="16" x="150.114" y="230.759" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="150.114" y="230.759" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5516,7 +5476,7 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="101.877475" x2="30.48" y2="100.584" width="0.508" layer="1"/>
 <wire x1="30.48" y1="100.584" x2="30.607" y2="100.457" width="0.508" layer="15"/>
 <contactref element="R68" pad="1"/>
-<contactref element="D2" pad="2"/>
+<contactref element="D2" pad="A"/>
 <contactref element="OPAMP1_PAN1" pad="5"/>
 <contactref element="OPAMP1_PAN1" pad="3"/>
 <wire x1="30.607" y1="99.3902" x2="30.607" y2="92.71" width="0.508" layer="15"/>
@@ -5524,14 +5484,14 @@ design rules under a new name.</description>
 <wire x1="31.68" y1="88.9" x2="30.48" y2="88.9" width="0.508" layer="1"/>
 <wire x1="30.48" y1="88.9" x2="29.972" y2="89.408" width="0.508" layer="1"/>
 <via x="29.972" y="89.408" extent="1-16" drill="0.508"/>
-<wire x1="34.544" y1="92.9386" x2="34.544" y2="92.201409375" width="0.508" layer="1"/>
-<wire x1="34.544" y1="92.201409375" x2="34.29" y2="91.994896875" width="0.508" layer="1"/>
-<wire x1="34.29" y1="91.994896875" x2="34.29" y2="91.948" width="0.508" layer="1"/>
-<via x="34.29" y="91.948" extent="1-16" drill="0.508"/>
+<wire x1="34.544" y1="92.71" x2="34.544" y2="92.201409375" width="0.508" layer="1"/>
+<wire x1="34.544" y1="92.201409375" x2="34.163" y2="91.891640625" width="0.508" layer="1"/>
+<wire x1="34.163" y1="91.891640625" x2="34.163" y2="91.567" width="0.508" layer="1"/>
+<via x="34.163" y="91.567" extent="1-16" drill="0.508"/>
 <wire x1="29.972" y1="89.408" x2="29.972" y2="92.075" width="0.508" layer="15"/>
 <wire x1="29.972" y1="92.075" x2="30.607" y2="92.71" width="0.508" layer="15"/>
-<wire x1="34.29" y1="91.948" x2="33.528" y2="92.71" width="0.508" layer="15"/>
-<wire x1="33.528" y1="92.71" x2="30.607" y2="92.71" width="0.508" layer="15"/>
+<wire x1="34.163" y1="91.567" x2="33.02" y2="92.71" width="0.508" layer="15"/>
+<wire x1="33.02" y1="92.71" x2="30.607" y2="92.71" width="0.508" layer="15"/>
 <wire x1="26.74" y1="90.17" x2="24.13" y2="90.17" width="0.508" layer="1"/>
 <via x="24.13" y="90.17" extent="1-16" drill="0.508"/>
 <wire x1="24.13" y1="90.17" x2="29.21" y2="90.17" width="0.508" layer="15"/>
@@ -5544,20 +5504,20 @@ design rules under a new name.</description>
 <wire x1="-6.35" y1="99.337475" x2="-6.35" y2="98.044" width="0.508" layer="1"/>
 <wire x1="-6.35" y1="98.044" x2="-2.159" y2="98.044" width="0.508" layer="15"/>
 <contactref element="R82" pad="1"/>
-<contactref element="D4" pad="2"/>
+<contactref element="D4" pad="A"/>
 <contactref element="OPAMP1_PAN3" pad="5"/>
 <contactref element="OPAMP1_PAN3" pad="3"/>
 <wire x1="-9.279" y1="100.584" x2="-8.340715625" y2="100.584" width="0.508" layer="1"/>
 <wire x1="-5.15" y1="86.36" x2="-6.35" y2="86.36" width="0.508" layer="1"/>
 <wire x1="-6.35" y1="86.36" x2="-6.858" y2="86.868" width="0.508" layer="1"/>
 <via x="-6.858" y="86.868" extent="1-16" drill="0.508"/>
-<wire x1="-2.286" y1="90.3986" x2="-2.286" y2="89.661409375" width="0.508" layer="1"/>
-<wire x1="-2.286" y1="89.661409375" x2="-2.54" y2="89.454896875" width="0.508" layer="1"/>
-<wire x1="-2.54" y1="89.454896875" x2="-2.54" y2="89.408" width="0.508" layer="1"/>
-<via x="-2.54" y="89.408" extent="1-16" drill="0.508"/>
+<wire x1="-2.286" y1="90.17" x2="-2.286" y2="89.661409375" width="0.508" layer="1"/>
+<wire x1="-2.286" y1="89.661409375" x2="-2.667" y2="89.351640625" width="0.508" layer="1"/>
+<wire x1="-2.667" y1="89.351640625" x2="-2.667" y2="89.154" width="0.508" layer="1"/>
+<via x="-2.667" y="89.154" extent="1-16" drill="0.508"/>
 <wire x1="-6.858" y1="86.868" x2="-6.858" y2="92.71" width="0.508" layer="15"/>
 <wire x1="-2.159" y1="98.044" x2="-2.54" y2="97.663" width="0.508" layer="15"/>
-<wire x1="-2.54" y1="89.408" x2="-2.54" y2="92.71" width="0.508" layer="15"/>
+<wire x1="-2.667" y1="89.154" x2="-2.667" y2="92.71" width="0.508" layer="15"/>
 <wire x1="-2.54" y1="92.71" x2="-2.54" y2="97.663" width="0.508" layer="15"/>
 <wire x1="-10.09" y1="87.63" x2="-12.7" y2="87.63" width="0.508" layer="1"/>
 <via x="-12.7" y="87.63" extent="1-16" drill="0.508"/>
@@ -5572,21 +5532,22 @@ design rules under a new name.</description>
 <wire x1="53.34" y1="99.314" x2="53.467" y2="99.187" width="0.508" layer="15"/>
 <wire x1="53.467" y1="99.187" x2="53.467" y2="91.44" width="0.508" layer="15"/>
 <contactref element="R6" pad="1"/>
-<contactref element="D3" pad="2"/>
+<contactref element="D3" pad="A"/>
 <contactref element="OPAMP1_PAN2" pad="5"/>
 <contactref element="OPAMP1_PAN2" pad="3"/>
 <wire x1="50.411" y1="101.854" x2="51.349284375" y2="101.854" width="0.508" layer="1"/>
 <wire x1="54.54" y1="87.63" x2="53.34" y2="87.63" width="0.508" layer="1"/>
 <wire x1="53.34" y1="87.63" x2="52.832" y2="88.138" width="0.508" layer="1"/>
 <via x="52.832" y="88.138" extent="1-16" drill="0.508"/>
-<wire x1="57.404" y1="91.6686" x2="57.404" y2="90.931409375" width="0.508" layer="1"/>
+<wire x1="57.404" y1="91.44" x2="57.404" y2="90.931409375" width="0.508" layer="1"/>
 <wire x1="57.404" y1="90.931409375" x2="57.15" y2="90.724896875" width="0.508" layer="1"/>
-<wire x1="57.15" y1="90.724896875" x2="57.15" y2="90.678" width="0.508" layer="1"/>
-<via x="57.15" y="90.678" extent="1-16" drill="0.508"/>
+<wire x1="57.15" y1="90.724896875" x2="57.15" y2="90.424" width="0.508" layer="1"/>
+<via x="57.15" y="90.424" extent="1-16" drill="0.508"/>
 <wire x1="52.832" y1="88.138" x2="52.832" y2="90.805" width="0.508" layer="15"/>
 <wire x1="52.832" y1="90.805" x2="53.467" y2="91.44" width="0.508" layer="15"/>
-<wire x1="57.15" y1="90.678" x2="56.388" y2="91.44" width="0.508" layer="15"/>
-<wire x1="56.388" y1="91.44" x2="53.467" y2="91.44" width="0.508" layer="15"/>
+<wire x1="57.15" y1="90.424" x2="57.15" y2="90.551" width="0.508" layer="15"/>
+<wire x1="57.15" y1="90.551" x2="56.261" y2="91.44" width="0.508" layer="15"/>
+<wire x1="56.261" y1="91.44" x2="53.467" y2="91.44" width="0.508" layer="15"/>
 <wire x1="49.6" y1="88.9" x2="46.99" y2="88.9" width="0.508" layer="1"/>
 <via x="46.99" y="88.9" extent="1-16" drill="0.508"/>
 <wire x1="46.99" y1="88.9" x2="52.07" y2="88.9" width="0.508" layer="15"/>
@@ -5601,21 +5562,22 @@ design rules under a new name.</description>
 <wire x1="96.266" y1="102.997" x2="94.107" y2="102.997" width="0.508" layer="15"/>
 <wire x1="94.107" y1="102.997" x2="94.107" y2="93.98" width="0.508" layer="15"/>
 <contactref element="R15" pad="1"/>
-<contactref element="D5" pad="2"/>
+<contactref element="D5" pad="A"/>
 <contactref element="OPAMP1_PAN4" pad="5"/>
 <contactref element="OPAMP1_PAN4" pad="3"/>
 <wire x1="91.051" y1="104.394" x2="93.282028125" y2="104.394" width="0.508" layer="1"/>
 <wire x1="95.18" y1="90.17" x2="93.98" y2="90.17" width="0.508" layer="1"/>
 <wire x1="93.98" y1="90.17" x2="93.472" y2="90.678" width="0.508" layer="1"/>
 <via x="93.472" y="90.678" extent="1-16" drill="0.508"/>
-<wire x1="98.044" y1="94.2086" x2="98.044" y2="93.471409375" width="0.508" layer="1"/>
-<wire x1="98.044" y1="93.471409375" x2="97.79" y2="93.264896875" width="0.508" layer="1"/>
-<wire x1="97.79" y1="93.264896875" x2="97.79" y2="93.218" width="0.508" layer="1"/>
-<via x="97.79" y="93.218" extent="1-16" drill="0.508"/>
+<wire x1="98.044" y1="93.98" x2="98.044" y2="93.471409375" width="0.508" layer="1"/>
+<wire x1="98.044" y1="93.471409375" x2="97.663" y2="93.161640625" width="0.508" layer="1"/>
+<wire x1="97.663" y1="93.161640625" x2="97.663" y2="92.837" width="0.508" layer="1"/>
+<via x="97.663" y="92.837" extent="1-16" drill="0.508"/>
 <wire x1="93.472" y1="90.678" x2="93.472" y2="93.345" width="0.508" layer="15"/>
 <wire x1="93.472" y1="93.345" x2="94.107" y2="93.98" width="0.508" layer="15"/>
-<wire x1="97.79" y1="93.218" x2="97.028" y2="93.98" width="0.508" layer="15"/>
-<wire x1="97.028" y1="93.98" x2="94.107" y2="93.98" width="0.508" layer="15"/>
+<wire x1="97.663" y1="92.837" x2="97.663" y2="93.091" width="0.508" layer="15"/>
+<wire x1="97.663" y1="93.091" x2="96.774" y2="93.98" width="0.508" layer="15"/>
+<wire x1="96.774" y1="93.98" x2="94.107" y2="93.98" width="0.508" layer="15"/>
 <wire x1="90.24" y1="91.44" x2="87.63" y2="91.44" width="0.508" layer="1"/>
 <via x="87.63" y="91.44" extent="1-16" drill="0.508"/>
 <wire x1="87.63" y1="91.44" x2="92.71" y2="91.44" width="0.508" layer="15"/>
@@ -6030,7 +5992,8 @@ design rules under a new name.</description>
 <wire x1="76.2" y1="129.032" x2="71.12" y2="129.032" width="0.508" layer="15"/>
 <wire x1="1.778" y1="107.696" x2="1.778" y2="98.044" width="0.508" layer="15"/>
 <wire x1="1.778" y1="98.044" x2="-2.159" y2="98.044" width="0.508" layer="15"/>
-<wire x1="-6.858" y1="92.71" x2="-2.54" y2="92.71" width="0.508" layer="15"/>
+<wire x1="-6.858" y1="92.71" x2="-2.667" y2="92.71" width="0.508" layer="15"/>
+<wire x1="-2.667" y1="92.71" x2="-2.54" y2="92.71" width="0.508" layer="15"/>
 <wire x1="1.778" y1="98.044" x2="23.7998" y2="98.044" width="0.508" layer="15"/>
 <wire x1="23.7998" y1="98.044" x2="23.7998" y2="99.3902" width="0.508" layer="15"/>
 <wire x1="30.607" y1="99.3902" x2="30.607" y2="100.457" width="0.508" layer="15"/>
@@ -6212,9 +6175,9 @@ design rules under a new name.</description>
 <wire x1="31.3855125" y1="97.155" x2="31.88" y2="97.155" width="0.508" layer="1"/>
 <wire x1="34.29" y1="90.416" x2="34.409" y2="90.416" width="0.508" layer="1"/>
 <wire x1="34.409" y1="90.416" x2="36.0172" y2="92.0242" width="0.508" layer="1"/>
-<wire x1="36.0172" y1="92.0242" x2="36.0172" y2="97.282" width="0.508" layer="1"/>
-<wire x1="36.0172" y1="97.282" x2="32.007" y2="97.282" width="0.508" layer="1"/>
-<wire x1="32.007" y1="97.282" x2="31.88" y2="97.155" width="0.508" layer="1"/>
+<wire x1="36.0172" y1="92.0242" x2="36.0172" y2="97.663" width="0.508" layer="1"/>
+<wire x1="36.0172" y1="97.663" x2="32.388" y2="97.663" width="0.508" layer="1"/>
+<wire x1="32.388" y1="97.663" x2="31.88" y2="97.155" width="0.508" layer="1"/>
 </signal>
 <signal name="CS_PAN1">
 <contactref element="10KPOT1_PAN1" pad="1"/>
@@ -6679,11 +6642,11 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="82.55" x2="30.48" y2="83.82" width="0.508" layer="1"/>
 </signal>
 <signal name="P0W_PAN1">
-<contactref element="D2" pad="1"/>
+<contactref element="D2" pad="C"/>
 <contactref element="10KPOT1_PAN1" pad="6"/>
-<wire x1="31.88" y1="95.885" x2="32.32861875" y2="96.33361875" width="0.508" layer="1"/>
-<wire x1="33.33589375" y1="96.5454" x2="32.32861875" y2="96.33361875" width="0.508" layer="1"/>
-<wire x1="33.33589375" y1="96.5454" x2="34.544" y2="96.5454" width="0.508" layer="1"/>
+<wire x1="34.544" y1="96.774" x2="33.277" y2="96.774" width="0.508" layer="1"/>
+<wire x1="33.277" y1="96.774" x2="32.388" y2="95.885" width="0.508" layer="1"/>
+<wire x1="31.88" y1="95.885" x2="32.388" y2="95.885" width="0.508" layer="1"/>
 </signal>
 <signal name="NEG_A_PAN1">
 <contactref element="OPAMP1_PAN1" pad="2"/>
@@ -6741,9 +6704,9 @@ design rules under a new name.</description>
 <wire x1="-5.4444875" y1="94.615" x2="-4.95" y2="94.615" width="0.508" layer="1"/>
 <wire x1="-2.54" y1="87.876" x2="-2.421" y2="87.876" width="0.508" layer="1"/>
 <wire x1="-2.421" y1="87.876" x2="-0.8128" y2="89.4842" width="0.508" layer="1"/>
-<wire x1="-0.8128" y1="89.4842" x2="-0.8128" y2="94.742" width="0.508" layer="1"/>
-<wire x1="-0.8128" y1="94.742" x2="-4.823" y2="94.742" width="0.508" layer="1"/>
-<wire x1="-4.823" y1="94.742" x2="-4.95" y2="94.615" width="0.508" layer="1"/>
+<wire x1="-0.8128" y1="89.4842" x2="-0.8128" y2="95.123" width="0.508" layer="1"/>
+<wire x1="-0.8128" y1="95.123" x2="-4.442" y2="95.123" width="0.508" layer="1"/>
+<wire x1="-4.442" y1="95.123" x2="-4.95" y2="94.615" width="0.508" layer="1"/>
 </signal>
 <signal name="CS_PAN2">
 <contactref element="10KPOT1_PAN3" pad="1"/>
@@ -6831,11 +6794,11 @@ design rules under a new name.</description>
 <wire x1="-12.7" y1="80.01" x2="-13.97" y2="80.01" width="0.508" layer="1"/>
 </signal>
 <signal name="P0W_PAN2">
-<contactref element="D4" pad="1"/>
+<contactref element="D4" pad="C"/>
 <contactref element="10KPOT1_PAN3" pad="6"/>
-<wire x1="-4.95" y1="93.345" x2="-4.50138125" y2="93.79361875" width="0.508" layer="1"/>
-<wire x1="-3.49410625" y1="94.0054" x2="-4.50138125" y2="93.79361875" width="0.508" layer="1"/>
-<wire x1="-3.49410625" y1="94.0054" x2="-2.286" y2="94.0054" width="0.508" layer="1"/>
+<wire x1="-3.68" y1="94.234" x2="-4.569" y2="93.345" width="0.508" layer="1"/>
+<wire x1="-4.95" y1="93.345" x2="-4.569" y2="93.345" width="0.508" layer="1"/>
+<wire x1="-3.68" y1="94.234" x2="-2.286" y2="94.234" width="0.508" layer="1"/>
 </signal>
 <signal name="NEG_A_PAN2">
 <contactref element="OPAMP1_PAN3" pad="2"/>
@@ -6924,9 +6887,9 @@ design rules under a new name.</description>
 <wire x1="54.2455125" y1="95.885" x2="54.74" y2="95.885" width="0.508" layer="1"/>
 <wire x1="57.15" y1="89.146" x2="57.269" y2="89.146" width="0.508" layer="1"/>
 <wire x1="57.269" y1="89.146" x2="58.8772" y2="90.7542" width="0.508" layer="1"/>
-<wire x1="58.8772" y1="90.7542" x2="58.8772" y2="96.012" width="0.508" layer="1"/>
-<wire x1="58.8772" y1="96.012" x2="54.867" y2="96.012" width="0.508" layer="1"/>
-<wire x1="54.867" y1="96.012" x2="54.74" y2="95.885" width="0.508" layer="1"/>
+<wire x1="58.8772" y1="90.7542" x2="58.8772" y2="96.393" width="0.508" layer="1"/>
+<wire x1="58.8772" y1="96.393" x2="55.248" y2="96.393" width="0.508" layer="1"/>
+<wire x1="55.248" y1="96.393" x2="54.74" y2="95.885" width="0.508" layer="1"/>
 </signal>
 <signal name="CS_PAN3">
 <contactref element="10KPOT1_PAN2" pad="1"/>
@@ -7000,11 +6963,12 @@ design rules under a new name.</description>
 <wire x1="53.34" y1="66.04" x2="52.1335" y2="64.8335" width="0.508" layer="1"/>
 </signal>
 <signal name="P0W_PAN3">
-<contactref element="D3" pad="1"/>
+<contactref element="D3" pad="C"/>
 <contactref element="10KPOT1_PAN2" pad="6"/>
-<wire x1="54.74" y1="94.615" x2="55.18861875" y2="95.06361875" width="0.508" layer="1"/>
-<wire x1="56.19589375" y1="95.2754" x2="55.18861875" y2="95.06361875" width="0.508" layer="1"/>
-<wire x1="56.19589375" y1="95.2754" x2="57.404" y2="95.2754" width="0.508" layer="1"/>
+<wire x1="54.74" y1="94.615" x2="55.248" y2="94.615" width="0.508" layer="1"/>
+<wire x1="56.102346875" y1="95.469346875" x2="55.248" y2="94.615" width="0.508" layer="1"/>
+<wire x1="56.267165625" y1="95.504" x2="56.102346875" y2="95.469346875" width="0.508" layer="1"/>
+<wire x1="56.267165625" y1="95.504" x2="57.404" y2="95.504" width="0.508" layer="1"/>
 </signal>
 <signal name="NEG_A_PAN3">
 <contactref element="OPAMP1_PAN2" pad="2"/>
@@ -7063,10 +7027,10 @@ design rules under a new name.</description>
 <wire x1="94.082" y1="99.2285125" x2="94.8855125" y2="98.425" width="0.508" layer="1"/>
 <wire x1="94.8855125" y1="98.425" x2="95.38" y2="98.425" width="0.508" layer="1"/>
 <wire x1="97.79" y1="91.686" x2="97.909" y2="91.686" width="0.508" layer="1"/>
-<wire x1="97.909" y1="91.686" x2="99.5172" y2="93.2942" width="0.508" layer="1"/>
-<wire x1="99.5172" y1="93.2942" x2="99.5172" y2="98.552" width="0.508" layer="1"/>
-<wire x1="99.5172" y1="98.552" x2="95.507" y2="98.552" width="0.508" layer="1"/>
-<wire x1="95.507" y1="98.552" x2="95.38" y2="98.425" width="0.508" layer="1"/>
+<wire x1="97.909" y1="91.686" x2="99.7712" y2="93.5482" width="0.508" layer="1"/>
+<wire x1="99.7712" y1="93.5482" x2="99.7712" y2="98.933" width="0.508" layer="1"/>
+<wire x1="99.7712" y1="98.933" x2="95.888" y2="98.933" width="0.508" layer="1"/>
+<wire x1="95.888" y1="98.933" x2="95.38" y2="98.425" width="0.508" layer="1"/>
 </signal>
 <signal name="CS_PAN4">
 <contactref element="10KPOT1_PAN4" pad="1"/>
@@ -7163,11 +7127,11 @@ design rules under a new name.</description>
 <wire x1="31.5214" y1="62.23" x2="31.3916" y2="62.23" width="0.508" layer="16"/>
 </signal>
 <signal name="P0W_PAN4">
-<contactref element="D5" pad="1"/>
+<contactref element="D5" pad="C"/>
 <contactref element="10KPOT1_PAN4" pad="6"/>
-<wire x1="95.38" y1="97.155" x2="95.82861875" y2="97.60361875" width="0.508" layer="1"/>
-<wire x1="96.83589375" y1="97.8154" x2="95.82861875" y2="97.60361875" width="0.508" layer="1"/>
-<wire x1="96.83589375" y1="97.8154" x2="98.044" y2="97.8154" width="0.508" layer="1"/>
+<wire x1="96.777" y1="98.044" x2="95.888" y2="97.155" width="0.508" layer="1"/>
+<wire x1="95.38" y1="97.155" x2="95.888" y2="97.155" width="0.508" layer="1"/>
+<wire x1="98.044" y1="98.044" x2="96.777" y2="98.044" width="0.508" layer="1"/>
 </signal>
 <signal name="NEG_A_PAN4">
 <contactref element="OPAMP1_PAN4" pad="2"/>

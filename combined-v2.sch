@@ -9448,7 +9448,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k"/>
 <part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="50k"/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1k"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="OPAMP1_MIX1" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
 <part name="GNDL1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="OUTL_MIX1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
@@ -9467,7 +9467,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="R58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k"/>
 <part name="R59" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="50k"/>
 <part name="R60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1k"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="GNDR1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="OUTR_MIX1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD5" device="" package3d_urn="urn:adsk.eagle:package:30841/1"/>
 <part name="R68" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
@@ -9481,7 +9481,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="OPAMP1_PAN1" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
-<part name="D2" library="1N4148W-TP" deviceset="1N4148W-TP" device="SOD123-L" value="1N4148W-TPSOD123-L"/>
+<part name="D2" library="1N4148W-TP" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="R82" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
 <part name="R83" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k"/>
@@ -9494,7 +9494,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="OPAMP1_PAN3" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
-<part name="D4" library="1N4148W-TP" deviceset="1N4148W-TP" device="SOD123-L" value="1N4148W-TPSOD123-L"/>
+<part name="D4" library="1N4148W-TP" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k"/>
@@ -9507,7 +9507,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="OPAMP1_PAN2" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
-<part name="D3" library="1N4148W-TP" deviceset="1N4148W-TP" device="SOD123-L" value="1N4148W-TPSOD123-L"/>
+<part name="D3" library="1N4148W-TP" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k"/>
@@ -9520,7 +9520,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="OPAMP1_PAN4" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
-<part name="D5" library="1N4148W-TP" deviceset="1N4148W-TP" device="SOD123-L" value="1N4148W-TPSOD123-L"/>
+<part name="D5" library="1N4148W-TP" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="U$1" library="LC75281E" deviceset="LC75281E" device="" package3d_urn="urn:adsk.eagle:package:41897184/1"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.047uF"/>
@@ -9618,7 +9618,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="D23" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D24" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D25" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10u"/>
+<part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="D26" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="100POT1_COMP1" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP1" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
@@ -9661,7 +9661,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="D45" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D46" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D47" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10u"/>
+<part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="D48" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="100POT1_COMP3" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP3" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
@@ -9704,7 +9704,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="D34" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D35" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D36" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10u"/>
+<part name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="D37" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="100POT1_COMP2" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP2" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
@@ -9747,7 +9747,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="D67" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D68" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="D69" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10u"/>
+<part name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="D70" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
 <part name="100POT1_COMP5" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP5" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
