@@ -8102,213 +8102,6 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="1N4148W-TP">
-<packages>
-<package name="SOD123">
-<wire x1="-1.4224" y1="-0.3302" x2="-1.4224" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.3302" x2="-1.9304" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.9304" y1="0.3302" x2="-1.9304" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.9304" y1="-0.3302" x2="-1.4224" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="0.3302" x2="1.4224" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.3302" x2="1.9304" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.9304" y1="-0.3302" x2="1.9304" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="1.9304" y1="0.3302" x2="1.4224" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.4572" x2="-0.9652" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.4572" x2="-0.9652" y2="-0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.9144" x2="1.4224" y2="-0.9144" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.9144" x2="1.4224" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.9144" x2="-1.4224" y2="-0.9144" width="0.1524" layer="51"/>
-<text x="-1.7526" y="-1.905" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<wire x1="-1.5494" y1="-1.016" x2="1.5494" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="-1.016" x2="1.5494" y2="-0.6096" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="1.016" x2="-1.5494" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-1.5494" y1="1.016" x2="-1.5494" y2="0.6096" width="0.1524" layer="21"/>
-<wire x1="-1.5494" y1="-0.6096" x2="-1.5494" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="0.6096" x2="1.5494" y2="1.016" width="0.1524" layer="21"/>
-<text x="-0.7112" y="-1.905" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.7272" y="1.905" size="1.27" layer="21" ratio="6" rot="SR0">&gt;VALUE</text>
-<polygon width="0.0254" layer="41">
-<vertex x="-1.7272" y="0.8509"/>
-<vertex x="1.7272" y="0.8509"/>
-<vertex x="1.7272" y="-0.8509"/>
-<vertex x="-1.7272" y="-0.8509"/>
-</polygon>
-<polygon width="0.0254" layer="41">
-<vertex x="-1.7272" y="0.8509"/>
-<vertex x="1.7272" y="0.8509"/>
-<vertex x="1.7272" y="-0.8509"/>
-<vertex x="-1.7272" y="-0.8509"/>
-</polygon>
-<text x="0.5334" y="-1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<smd name="C" x="-2.032" y="0" dx="0.508" dy="0.7112" layer="1"/>
-<smd name="A" x="2.032" y="0" dx="0.508" dy="0.7112" layer="1"/>
-</package>
-<package name="SOD123-M">
-<wire x1="-1.4224" y1="-0.3302" x2="-1.4224" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.3302" x2="-1.9304" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.9304" y1="0.3302" x2="-1.9304" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.9304" y1="-0.3302" x2="-1.4224" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="0.3302" x2="1.4224" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.3302" x2="1.9304" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.9304" y1="-0.3302" x2="1.9304" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="1.9304" y1="0.3302" x2="1.4224" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.4572" x2="-0.9652" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.4572" x2="-0.9652" y2="-0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.9144" x2="1.4224" y2="-0.9144" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.9144" x2="1.4224" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.9144" x2="-1.4224" y2="-0.9144" width="0.1524" layer="51"/>
-<text x="-1.7526" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<wire x1="-1.5494" y1="-1.016" x2="1.5494" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="-1.016" x2="1.5494" y2="-0.7112" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="1.016" x2="-1.5494" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-1.5494" y1="1.016" x2="-1.5494" y2="0.7112" width="0.1524" layer="21"/>
-<wire x1="-1.5494" y1="-0.7112" x2="-1.5494" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="0.7112" x2="1.5494" y2="1.016" width="0.1524" layer="21"/>
-<text x="-3.4544" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;VALUE</text>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.27" y="0.8509"/>
-<vertex x="1.27" y="0.8509"/>
-<vertex x="1.27" y="-0.8509"/>
-<vertex x="-1.27" y="-0.8509"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.27" y="0.8509"/>
-<vertex x="1.27" y="0.8509"/>
-<vertex x="1.27" y="-0.8509"/>
-<vertex x="-1.27" y="-0.8509"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<smd name="1" x="-1.905" y="0" dx="1.1684" dy="0.762" layer="1"/>
-<smd name="2" x="1.905" y="0" dx="1.1684" dy="0.762" layer="1"/>
-</package>
-<package name="SOD123-L">
-<wire x1="-1.4224" y1="-0.3302" x2="-1.4224" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.3302" x2="-1.9304" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.9304" y1="0.3302" x2="-1.9304" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.9304" y1="-0.3302" x2="-1.4224" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="0.3302" x2="1.4224" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.3302" x2="1.9304" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="1.9304" y1="-0.3302" x2="1.9304" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="1.9304" y1="0.3302" x2="1.4224" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.4572" x2="-0.9652" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.4572" x2="-0.9652" y2="-0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.9144" x2="1.4224" y2="-0.9144" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.9144" x2="1.4224" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.9144" x2="-1.4224" y2="-0.9144" width="0.1524" layer="51"/>
-<text x="-1.7526" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<wire x1="-1.5494" y1="-1.016" x2="1.5494" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="-1.016" x2="1.5494" y2="-0.6604" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="1.016" x2="-1.5494" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-1.5494" y1="1.016" x2="-1.5494" y2="0.6604" width="0.1524" layer="21"/>
-<wire x1="-1.5494" y1="-0.6604" x2="-1.5494" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.5494" y1="0.6604" x2="1.5494" y2="1.016" width="0.1524" layer="21"/>
-<text x="-3.048" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;VALUE</text>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.4732" y="0.8509"/>
-<vertex x="1.4732" y="0.8509"/>
-<vertex x="1.4732" y="-0.8509"/>
-<vertex x="-1.4732" y="-0.8509"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-1.4732" y="0.8509"/>
-<vertex x="1.4732" y="0.8509"/>
-<vertex x="1.4732" y="-0.8509"/>
-<vertex x="-1.4732" y="-0.8509"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<smd name="1" x="-1.8034" y="0" dx="0.5588" dy="0.6604" layer="1"/>
-<smd name="2" x="1.8034" y="0" dx="0.5588" dy="0.6604" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DIODE">
-<wire x1="3.81" y1="1.905" x2="3.81" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="-1.905" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.2032" layer="94"/>
-<wire x1="6.35" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
-<wire x1="6.35" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.2032" layer="94"/>
-<wire x1="6.35" y1="0" x2="3.81" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="3.81" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
-<text x="-3.8862" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<text x="-2.8194" y="2.6924" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<pin name="A" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="C" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1N4148W-TP" prefix="CR">
-<description> &lt;a href="https://pricing.snapeda.com/parts/1N4148W-TP/Micro%20Commercial/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="A" symbol="DIODE" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="SOD123">
-<connects>
-<connect gate="A" pin="A" pad="A"/>
-<connect gate="A" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148W-TP/Micro+Commercial+Components/view-part/?ref=eda"/>
-<attribute name="DESCRIPTION" value=" 1N4148W Series 100 V 150 mA 4 ns SMT High Speed Switching Diode - SOD-123 "/>
-<attribute name="MF" value="Micro Commercial"/>
-<attribute name="MP" value="1N4148W-TP"/>
-<attribute name="PACKAGE" value="SOD-123 Multicomp"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9224&amp;manufacturer=Micro Commercial&amp;part_name=1N4148W-TP&amp;search_term=1n4148 surface mount"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1N4148W-TP/Micro+Commercial+Components/view-part/?ref=snap"/>
-</technology>
-</technologies>
-</device>
-<device name="SOD123-M" package="SOD123-M">
-<connects>
-<connect gate="A" pin="A" pad="2"/>
-<connect gate="A" pin="C" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148W-TP/Micro+Commercial+Components/view-part/?ref=eda"/>
-<attribute name="DESCRIPTION" value=" 1N4148W Series 100 V 150 mA 4 ns SMT High Speed Switching Diode - SOD-123 "/>
-<attribute name="MF" value="Micro Commercial"/>
-<attribute name="MP" value="1N4148W-TP"/>
-<attribute name="PACKAGE" value="SOD-123 Multicomp"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9224&amp;manufacturer=Micro Commercial&amp;part_name=1N4148W-TP&amp;search_term=1n4148 surface mount"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1N4148W-TP/Micro+Commercial+Components/view-part/?ref=snap"/>
-</technology>
-</technologies>
-</device>
-<device name="SOD123-L" package="SOD123-L">
-<connects>
-<connect gate="A" pin="A" pad="2"/>
-<connect gate="A" pin="C" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148W-TP/Micro+Commercial+Components/view-part/?ref=eda"/>
-<attribute name="DESCRIPTION" value=" 1N4148W Series 100 V 150 mA 4 ns SMT High Speed Switching Diode - SOD-123 "/>
-<attribute name="MF" value="Micro Commercial"/>
-<attribute name="MP" value="1N4148W-TP"/>
-<attribute name="PACKAGE" value="SOD-123 Multicomp"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9224&amp;manufacturer=Micro Commercial&amp;part_name=1N4148W-TP&amp;search_term=1n4148 surface mount"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1N4148W-TP/Micro+Commercial+Components/view-part/?ref=snap"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="LC75281E">
 <packages>
 <package name="QFP80P1720X1720X270-64N" urn="urn:adsk.eagle:footprint:41897188/1" locally_modified="yes">
@@ -9417,6 +9210,204 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </deviceset>
 </devicesets>
 </library>
+<library name="1N4148W-TP(1)">
+<packages>
+<package name="SOD123">
+<wire x1="-1.4224" y1="-0.3302" x2="-1.4224" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.3302" x2="-1.9304" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="0.3302" x2="-1.9304" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="-0.3302" x2="-1.4224" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.3302" x2="1.4224" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.3302" x2="1.9304" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="-0.3302" x2="1.9304" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="0.3302" x2="1.4224" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.4572" x2="-0.9652" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4572" x2="-0.9652" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.9144" x2="1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.9144" x2="1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.9144" x2="-1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<text x="-1.7526" y="-3.175" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-1.5494" y1="-1.016" x2="1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="-1.016" x2="1.5494" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="1.016" x2="-1.5494" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="1.016" x2="-1.5494" y2="0.6096" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="-0.6096" x2="-1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="0.6096" x2="1.5494" y2="1.016" width="0.1524" layer="21"/>
+<text x="0.5588" y="-3.175" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-2.9972" y="-3.175" size="1.27" layer="21" ratio="6" rot="SR0">&gt;VALUE</text>
+<polygon width="0.0254" layer="41">
+<vertex x="-0.987721875" y="0.830275"/>
+<vertex x="0.9899625" y="0.827675"/>
+<vertex x="0.9899625" y="-0.874125"/>
+<vertex x="-0.987721875" y="-0.871525"/>
+</polygon>
+<text x="-2.0066" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<smd name="1" x="-1.63" y="0" dx="0.91" dy="1.22" layer="1"/>
+<smd name="2" x="1.63" y="0" dx="0.91" dy="1.22" layer="1"/>
+</package>
+<package name="SOD123-M">
+<wire x1="-1.4224" y1="-0.3302" x2="-1.4224" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.3302" x2="-1.9304" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="0.3302" x2="-1.9304" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="-0.3302" x2="-1.4224" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.3302" x2="1.4224" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.3302" x2="1.9304" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="-0.3302" x2="1.9304" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="0.3302" x2="1.4224" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.4572" x2="-0.9652" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4572" x2="-0.9652" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.9144" x2="1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.9144" x2="1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.9144" x2="-1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<text x="-1.7526" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-1.5494" y1="-1.016" x2="1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="-1.016" x2="1.5494" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="1.016" x2="-1.5494" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="1.016" x2="-1.5494" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="-0.7112" x2="-1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="0.7112" x2="1.5494" y2="1.016" width="0.1524" layer="21"/>
+<text x="-3.4544" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;VALUE</text>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.27" y="0.8509"/>
+<vertex x="1.27" y="0.8509"/>
+<vertex x="1.27" y="-0.8509"/>
+<vertex x="-1.27" y="-0.8509"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.27" y="0.8509"/>
+<vertex x="1.27" y="0.8509"/>
+<vertex x="1.27" y="-0.8509"/>
+<vertex x="-1.27" y="-0.8509"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<smd name="1" x="-1.905" y="0" dx="1.1684" dy="0.762" layer="1"/>
+<smd name="2" x="1.905" y="0" dx="1.1684" dy="0.762" layer="1"/>
+</package>
+<package name="SOD123-L">
+<wire x1="-1.4224" y1="-0.3302" x2="-1.4224" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.3302" x2="-1.9304" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="0.3302" x2="-1.9304" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="-0.3302" x2="-1.4224" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.3302" x2="1.4224" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.3302" x2="1.9304" y2="-0.3302" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="-0.3302" x2="1.9304" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="0.3302" x2="1.4224" y2="0.3302" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.4572" x2="-0.9652" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4572" x2="-0.9652" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.9144" x2="1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.9144" x2="1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.9144" x2="-1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<text x="-1.7526" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-1.5494" y1="-1.016" x2="1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="-1.016" x2="1.5494" y2="-0.6604" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="1.016" x2="-1.5494" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="1.016" x2="-1.5494" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="-0.6604" x2="-1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="0.6604" x2="1.5494" y2="1.016" width="0.1524" layer="21"/>
+<text x="-3.048" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;VALUE</text>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.4732" y="0.8509"/>
+<vertex x="1.4732" y="0.8509"/>
+<vertex x="1.4732" y="-0.8509"/>
+<vertex x="-1.4732" y="-0.8509"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.4732" y="0.8509"/>
+<vertex x="1.4732" y="0.8509"/>
+<vertex x="1.4732" y="-0.8509"/>
+<vertex x="-1.4732" y="-0.8509"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<smd name="1" x="-1.8034" y="0" dx="0.5588" dy="0.6604" layer="1"/>
+<smd name="2" x="1.8034" y="0" dx="0.5588" dy="0.6604" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DIODE">
+<wire x1="3.81" y1="1.905" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="3.81" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<text x="-3.8862" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-2.8194" y="2.6924" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1N4148W-TP" prefix="CR">
+<description> &lt;a href="https://pricing.snapeda.com/parts/1N4148WTP/Diodes%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="DIODE" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SOD123">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Not in stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148WTP/Diodes+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Diodes - General Purpose, Power, Switching 100Vrm 71Vr 150mA 4.0A 100mW 1.5pF "/>
+<attribute name="MF" value="Diodes Inc."/>
+<attribute name="MP" value="1N4148WTP"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1N4148WTP/Diodes+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+<device name="SOD123-M" package="SOD123-M">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Not in stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148WTP/Diodes+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Diodes - General Purpose, Power, Switching 100Vrm 71Vr 150mA 4.0A 100mW 1.5pF "/>
+<attribute name="MF" value="Diodes Inc."/>
+<attribute name="MP" value="1N4148WTP"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1N4148WTP/Diodes+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+<device name="SOD123-L" package="SOD123-L">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Not in stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1N4148WTP/Diodes+Inc./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Diodes - General Purpose, Power, Switching 100Vrm 71Vr 150mA 4.0A 100mW 1.5pF "/>
+<attribute name="MF" value="Diodes Inc."/>
+<attribute name="MP" value="1N4148WTP"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1N4148WTP/Diodes+Inc./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9481,7 +9472,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="OPAMP1_PAN1" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
-<part name="D2" library="1N4148W-TP" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D2" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="R82" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
 <part name="R83" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k"/>
@@ -9494,7 +9485,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="OPAMP1_PAN3" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
-<part name="D4" library="1N4148W-TP" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D4" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k"/>
@@ -9507,7 +9498,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="OPAMP1_PAN2" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
-<part name="D3" library="1N4148W-TP" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D3" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5k"/>
@@ -9520,7 +9511,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="OPAMP1_PAN4" library="LM4562MAX_NOPB" deviceset="LM4562MAX/NOPB" device=""/>
-<part name="D5" library="1N4148W-TP" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D5" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
 <part name="U$1" library="LC75281E" deviceset="LC75281E" device="" package3d_urn="urn:adsk.eagle:package:41897184/1"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.047uF"/>
@@ -9602,24 +9593,24 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="R79" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R80" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R81" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="20k"/>
-<part name="D16" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D17" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D18" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D16" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D17" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D18" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680pF"/>
-<part name="D19" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D19" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="R89" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R90" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R91" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R92" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R93" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
-<part name="D20" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D21" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D22" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D23" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D24" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D25" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D20" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D21" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D22" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D23" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D24" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D25" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
-<part name="D26" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D26" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="100POT1_COMP1" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP1" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="10POT2_COMP1" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
@@ -9645,24 +9636,24 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="R122" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R123" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R124" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="20k"/>
-<part name="D38" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D39" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D40" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D38" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D39" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D40" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680pF"/>
-<part name="D41" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D41" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="R125" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R126" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R127" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R128" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R129" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
-<part name="D42" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D43" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D44" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D45" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D46" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D47" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D42" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D43" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D44" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D45" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D46" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D47" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
-<part name="D48" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D48" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="100POT1_COMP3" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP3" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="10POT2_COMP3" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
@@ -9688,24 +9679,24 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="R104" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R105" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R106" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="20k"/>
-<part name="D27" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D28" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D29" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D27" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D28" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D29" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680pF"/>
-<part name="D30" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D30" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="R107" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R108" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R109" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R110" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R111" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
-<part name="D31" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D32" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D33" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D34" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D35" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D36" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D31" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D32" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D33" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D34" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D35" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D36" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
-<part name="D37" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D37" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="100POT1_COMP2" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP2" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="10POT2_COMP2" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
@@ -9731,24 +9722,24 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <part name="R158" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R159" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R160" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="20k"/>
-<part name="D60" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D61" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D62" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D60" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D61" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D62" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C54" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="680pF"/>
-<part name="D63" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D63" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="R161" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R162" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R163" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R164" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R165" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
-<part name="D64" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D65" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D66" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D67" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D68" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
-<part name="D69" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D64" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D65" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D66" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D67" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D68" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
+<part name="D69" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
-<part name="D70" library="1N4148W-TP" deviceset="1N4148W-TP" device=""/>
+<part name="D70" library="1N4148W-TP(1)" deviceset="1N4148W-TP" device="" value="1N4148W-TP"/>
 <part name="100POT1_COMP5" library="MCP42100-I_P" deviceset="MCP42100-I/P" device=""/>
 <part name="10POT1_COMP5" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
 <part name="10POT2_COMP5" library="MCP4131-503E_SN" deviceset="MCP4131-503E/SN" device=""/>
@@ -12157,7 +12148,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="279.4" y="96.52" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D2" gate="A" pin="A"/>
+<pinref part="D2" gate="A" pin="2"/>
 <wire x1="325.12" y1="81.28" x2="327.66" y2="81.28" width="0.1524" layer="91"/>
 <label x="327.66" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -12182,7 +12173,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="266.7" y="-10.16" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D4" gate="A" pin="A"/>
+<pinref part="D4" gate="A" pin="2"/>
 <wire x1="312.42" y1="-25.4" x2="314.96" y2="-25.4" width="0.1524" layer="91"/>
 <label x="314.96" y="-25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -12207,7 +12198,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="454.66" y="101.6" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D3" gate="A" pin="A"/>
+<pinref part="D3" gate="A" pin="2"/>
 <wire x1="500.38" y1="86.36" x2="502.92" y2="86.36" width="0.1524" layer="91"/>
 <label x="502.92" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -12232,7 +12223,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="444.5" y="0" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D5" gate="A" pin="A"/>
+<pinref part="D5" gate="A" pin="2"/>
 <wire x1="490.22" y1="-15.24" x2="492.76" y2="-15.24" width="0.1524" layer="91"/>
 <label x="492.76" y="-15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -13099,7 +13090,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <segment>
 <wire x1="314.96" y1="81.28" x2="307.34" y2="81.28" width="0.1524" layer="91"/>
 <label x="307.34" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="D2" gate="A" pin="C"/>
+<pinref part="D2" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="10KPOT1_PAN1" gate="A" pin="P0W"/>
@@ -13248,7 +13239,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <segment>
 <wire x1="302.26" y1="-25.4" x2="294.64" y2="-25.4" width="0.1524" layer="91"/>
 <label x="294.64" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="D4" gate="A" pin="C"/>
+<pinref part="D4" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="10KPOT1_PAN3" gate="A" pin="P0W"/>
@@ -13397,7 +13388,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <segment>
 <wire x1="490.22" y1="86.36" x2="482.6" y2="86.36" width="0.1524" layer="91"/>
 <label x="482.6" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="D3" gate="A" pin="C"/>
+<pinref part="D3" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="10KPOT1_PAN2" gate="A" pin="P0W"/>
@@ -13522,7 +13513,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <segment>
 <wire x1="480.06" y1="-15.24" x2="472.44" y2="-15.24" width="0.1524" layer="91"/>
 <label x="472.44" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="D5" gate="A" pin="C"/>
+<pinref part="D5" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="10KPOT1_PAN4" gate="A" pin="P0W"/>
@@ -14429,10 +14420,10 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <segment>
 <wire x1="492.76" y1="335.28" x2="492.76" y2="330.2" width="0.1524" layer="91"/>
 <wire x1="492.76" y1="330.2" x2="500.38" y2="330.2" width="0.1524" layer="91"/>
-<pinref part="D16" gate="A" pin="C"/>
+<pinref part="D16" gate="A" pin="1"/>
 <wire x1="492.76" y1="330.2" x2="492.76" y2="322.58" width="0.1524" layer="91"/>
 <junction x="492.76" y="330.2"/>
-<pinref part="D18" gate="A" pin="A"/>
+<pinref part="D18" gate="A" pin="2"/>
 <wire x1="492.76" y1="322.58" x2="505.46" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="R63" gate="G$1" pin="2"/>
 <wire x1="492.76" y1="317.5" x2="492.76" y2="322.58" width="0.1524" layer="91"/>
@@ -14450,17 +14441,17 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="N$74" class="0">
 <segment>
-<pinref part="D16" gate="A" pin="A"/>
-<pinref part="D17" gate="A" pin="C"/>
+<pinref part="D16" gate="A" pin="2"/>
+<pinref part="D17" gate="A" pin="1"/>
 <wire x1="523.24" y1="330.2" x2="510.54" y2="330.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$211" class="0">
 <segment>
-<pinref part="D17" gate="A" pin="A"/>
+<pinref part="D17" gate="A" pin="2"/>
 <pinref part="R65" gate="G$1" pin="1"/>
 <wire x1="533.4" y1="330.2" x2="533.4" y2="350.52" width="0.1524" layer="91"/>
-<pinref part="D18" gate="A" pin="C"/>
+<pinref part="D18" gate="A" pin="1"/>
 <wire x1="515.62" y1="322.58" x2="533.4" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="533.4" y1="322.58" x2="533.4" y2="330.2" width="0.1524" layer="91"/>
 <pinref part="C42" gate="G$1" pin="1"/>
@@ -14472,7 +14463,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <pinref part="R89" gate="G$1" pin="2"/>
 <wire x1="538.48" y1="350.52" x2="538.48" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="538.48" y1="350.52" x2="568.96" y2="350.52" width="0.1524" layer="91"/>
-<pinref part="D25" gate="A" pin="A"/>
+<pinref part="D25" gate="A" pin="2"/>
 <junction x="538.48" y="350.52"/>
 <junction x="533.4" y="330.2"/>
 <label x="530.86" y="340.36" size="1.778" layer="95" rot="R180"/>
@@ -14486,21 +14477,21 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="673.1" y="266.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D26" gate="A" pin="A"/>
+<pinref part="D26" gate="A" pin="2"/>
 <wire x1="665.48" y1="355.6" x2="662.94" y2="355.6" width="0.1524" layer="91"/>
 <label x="662.94" y="355.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="D22" gate="A" pin="C"/>
-<pinref part="D21" gate="A" pin="A"/>
+<pinref part="D22" gate="A" pin="1"/>
+<pinref part="D21" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$76" class="0">
 <segment>
-<pinref part="D21" gate="A" pin="C"/>
-<pinref part="D20" gate="A" pin="A"/>
+<pinref part="D21" gate="A" pin="1"/>
+<pinref part="D20" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$77" class="0">
@@ -14512,15 +14503,15 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="N$78" class="0">
 <segment>
-<pinref part="D25" gate="A" pin="C"/>
-<pinref part="D24" gate="A" pin="A"/>
+<pinref part="D25" gate="A" pin="1"/>
+<pinref part="D24" gate="A" pin="2"/>
 <wire x1="579.12" y1="350.52" x2="581.66" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$79" class="0">
 <segment>
-<pinref part="D24" gate="A" pin="C"/>
-<pinref part="D23" gate="A" pin="A"/>
+<pinref part="D24" gate="A" pin="1"/>
+<pinref part="D23" gate="A" pin="2"/>
 <wire x1="591.82" y1="350.52" x2="594.36" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14770,7 +14761,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <wire x1="566.42" y1="309.88" x2="581.66" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="581.66" y1="309.88" x2="584.2" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="584.2" y1="292.1" x2="617.22" y2="292.1" width="0.1524" layer="91"/>
-<pinref part="D20" gate="A" pin="C"/>
+<pinref part="D20" gate="A" pin="1"/>
 <wire x1="584.2" y1="292.1" x2="579.12" y2="292.1" width="0.1524" layer="91"/>
 <junction x="584.2" y="292.1"/>
 <label x="579.12" y="292.1" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -14793,11 +14784,11 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="POS_A4_COMP1" class="0">
 <segment>
-<pinref part="D22" gate="A" pin="A"/>
+<pinref part="D22" gate="A" pin="2"/>
 <wire x1="617.22" y1="322.58" x2="617.22" y2="330.2" width="0.1524" layer="91"/>
 <pinref part="R93" gate="G$1" pin="1"/>
 <wire x1="617.22" y1="330.2" x2="614.68" y2="330.2" width="0.1524" layer="91"/>
-<pinref part="D23" gate="A" pin="C"/>
+<pinref part="D23" gate="A" pin="1"/>
 <wire x1="604.52" y1="350.52" x2="617.22" y2="350.52" width="0.1524" layer="91"/>
 <wire x1="617.22" y1="350.52" x2="617.22" y2="330.2" width="0.1524" layer="91"/>
 <junction x="617.22" y="330.2"/>
@@ -14836,7 +14827,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="497.84" y="264.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D19" gate="A" pin="A"/>
+<pinref part="D19" gate="A" pin="2"/>
 <wire x1="589.28" y1="381" x2="579.12" y2="381" width="0.1524" layer="91"/>
 <label x="589.28" y="381" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -14871,7 +14862,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="L1_COMP1" class="0">
 <segment>
-<pinref part="D19" gate="A" pin="C"/>
+<pinref part="D19" gate="A" pin="1"/>
 <wire x1="568.96" y1="381" x2="563.88" y2="381" width="0.1524" layer="91"/>
 <label x="563.88" y="381" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -14918,7 +14909,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <net name="POS_B1_COMP1" class="0">
 <segment>
 <pinref part="R77" gate="G$1" pin="2"/>
-<pinref part="D26" gate="A" pin="C"/>
+<pinref part="D26" gate="A" pin="1"/>
 <wire x1="645.16" y1="368.3" x2="675.64" y2="368.3" width="0.1524" layer="91"/>
 <wire x1="675.64" y1="368.3" x2="675.64" y2="355.6" width="0.1524" layer="91"/>
 <wire x1="675.64" y1="368.3" x2="675.64" y2="375.92" width="0.1524" layer="91"/>
@@ -14953,10 +14944,10 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <segment>
 <wire x1="939.8" y1="340.36" x2="939.8" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="939.8" y1="335.28" x2="947.42" y2="335.28" width="0.1524" layer="91"/>
-<pinref part="D38" gate="A" pin="C"/>
+<pinref part="D38" gate="A" pin="1"/>
 <wire x1="939.8" y1="335.28" x2="939.8" y2="327.66" width="0.1524" layer="91"/>
 <junction x="939.8" y="335.28"/>
-<pinref part="D40" gate="A" pin="A"/>
+<pinref part="D40" gate="A" pin="2"/>
 <wire x1="939.8" y1="327.66" x2="952.5" y2="327.66" width="0.1524" layer="91"/>
 <pinref part="R113" gate="G$1" pin="2"/>
 <wire x1="939.8" y1="322.58" x2="939.8" y2="327.66" width="0.1524" layer="91"/>
@@ -14974,17 +14965,17 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="N$86" class="0">
 <segment>
-<pinref part="D38" gate="A" pin="A"/>
-<pinref part="D39" gate="A" pin="C"/>
+<pinref part="D38" gate="A" pin="2"/>
+<pinref part="D39" gate="A" pin="1"/>
 <wire x1="970.28" y1="335.28" x2="957.58" y2="335.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$212" class="0">
 <segment>
-<pinref part="D39" gate="A" pin="A"/>
+<pinref part="D39" gate="A" pin="2"/>
 <pinref part="R115" gate="G$1" pin="1"/>
 <wire x1="980.44" y1="335.28" x2="980.44" y2="355.6" width="0.1524" layer="91"/>
-<pinref part="D40" gate="A" pin="C"/>
+<pinref part="D40" gate="A" pin="1"/>
 <wire x1="962.66" y1="327.66" x2="980.44" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="980.44" y1="327.66" x2="980.44" y2="335.28" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="1"/>
@@ -14996,7 +14987,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <pinref part="R125" gate="G$1" pin="2"/>
 <wire x1="985.52" y1="355.6" x2="985.52" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="985.52" y1="355.6" x2="1016" y2="355.6" width="0.1524" layer="91"/>
-<pinref part="D47" gate="A" pin="A"/>
+<pinref part="D47" gate="A" pin="2"/>
 <junction x="985.52" y="355.6"/>
 <junction x="980.44" y="335.28"/>
 <label x="977.9" y="345.44" size="1.778" layer="95" rot="R180"/>
@@ -15010,21 +15001,21 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="1120.14" y="271.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D48" gate="A" pin="A"/>
+<pinref part="D48" gate="A" pin="2"/>
 <wire x1="1112.52" y1="360.68" x2="1109.98" y2="360.68" width="0.1524" layer="91"/>
 <label x="1109.98" y="360.68" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$87" class="0">
 <segment>
-<pinref part="D44" gate="A" pin="C"/>
-<pinref part="D43" gate="A" pin="A"/>
+<pinref part="D44" gate="A" pin="1"/>
+<pinref part="D43" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$88" class="0">
 <segment>
-<pinref part="D43" gate="A" pin="C"/>
-<pinref part="D42" gate="A" pin="A"/>
+<pinref part="D43" gate="A" pin="1"/>
+<pinref part="D42" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$89" class="0">
@@ -15036,15 +15027,15 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="N$90" class="0">
 <segment>
-<pinref part="D47" gate="A" pin="C"/>
-<pinref part="D46" gate="A" pin="A"/>
+<pinref part="D47" gate="A" pin="1"/>
+<pinref part="D46" gate="A" pin="2"/>
 <wire x1="1026.16" y1="355.6" x2="1028.7" y2="355.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$91" class="0">
 <segment>
-<pinref part="D46" gate="A" pin="C"/>
-<pinref part="D45" gate="A" pin="A"/>
+<pinref part="D46" gate="A" pin="1"/>
+<pinref part="D45" gate="A" pin="2"/>
 <wire x1="1038.86" y1="355.6" x2="1041.4" y2="355.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15294,7 +15285,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <wire x1="1013.46" y1="314.96" x2="1028.7" y2="314.96" width="0.1524" layer="91"/>
 <wire x1="1028.7" y1="314.96" x2="1031.24" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="1031.24" y1="297.18" x2="1064.26" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="D42" gate="A" pin="C"/>
+<pinref part="D42" gate="A" pin="1"/>
 <wire x1="1031.24" y1="297.18" x2="1026.16" y2="297.18" width="0.1524" layer="91"/>
 <junction x="1031.24" y="297.18"/>
 <label x="1026.16" y="297.18" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -15317,11 +15308,11 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="POS_A4_COMP2" class="0">
 <segment>
-<pinref part="D44" gate="A" pin="A"/>
+<pinref part="D44" gate="A" pin="2"/>
 <wire x1="1064.26" y1="327.66" x2="1064.26" y2="335.28" width="0.1524" layer="91"/>
 <pinref part="R129" gate="G$1" pin="1"/>
 <wire x1="1064.26" y1="335.28" x2="1061.72" y2="335.28" width="0.1524" layer="91"/>
-<pinref part="D45" gate="A" pin="C"/>
+<pinref part="D45" gate="A" pin="1"/>
 <wire x1="1051.56" y1="355.6" x2="1064.26" y2="355.6" width="0.1524" layer="91"/>
 <wire x1="1064.26" y1="355.6" x2="1064.26" y2="335.28" width="0.1524" layer="91"/>
 <junction x="1064.26" y="335.28"/>
@@ -15360,7 +15351,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="944.88" y="269.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D41" gate="A" pin="A"/>
+<pinref part="D41" gate="A" pin="2"/>
 <wire x1="1036.32" y1="386.08" x2="1026.16" y2="386.08" width="0.1524" layer="91"/>
 <label x="1036.32" y="386.08" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -15395,7 +15386,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="L1_COMP2" class="0">
 <segment>
-<pinref part="D41" gate="A" pin="C"/>
+<pinref part="D41" gate="A" pin="1"/>
 <wire x1="1016" y1="386.08" x2="1010.92" y2="386.08" width="0.1524" layer="91"/>
 <label x="1010.92" y="386.08" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -15442,7 +15433,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <net name="POS_B1_COMP2" class="0">
 <segment>
 <pinref part="R120" gate="G$1" pin="2"/>
-<pinref part="D48" gate="A" pin="C"/>
+<pinref part="D48" gate="A" pin="1"/>
 <wire x1="1092.2" y1="373.38" x2="1122.68" y2="373.38" width="0.1524" layer="91"/>
 <wire x1="1122.68" y1="373.38" x2="1122.68" y2="360.68" width="0.1524" layer="91"/>
 <wire x1="1122.68" y1="373.38" x2="1122.68" y2="381" width="0.1524" layer="91"/>
@@ -15477,10 +15468,10 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <segment>
 <wire x1="749.3" y1="35.56" x2="749.3" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="749.3" y1="30.48" x2="756.92" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="D27" gate="A" pin="C"/>
+<pinref part="D27" gate="A" pin="1"/>
 <wire x1="749.3" y1="30.48" x2="749.3" y2="22.86" width="0.1524" layer="91"/>
 <junction x="749.3" y="30.48"/>
-<pinref part="D29" gate="A" pin="A"/>
+<pinref part="D29" gate="A" pin="2"/>
 <wire x1="749.3" y1="22.86" x2="762" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R95" gate="G$1" pin="2"/>
 <wire x1="749.3" y1="17.78" x2="749.3" y2="22.86" width="0.1524" layer="91"/>
@@ -15498,17 +15489,17 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="N$80" class="0">
 <segment>
-<pinref part="D27" gate="A" pin="A"/>
-<pinref part="D28" gate="A" pin="C"/>
+<pinref part="D27" gate="A" pin="2"/>
+<pinref part="D28" gate="A" pin="1"/>
 <wire x1="779.78" y1="30.48" x2="767.08" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$213" class="0">
 <segment>
-<pinref part="D28" gate="A" pin="A"/>
+<pinref part="D28" gate="A" pin="2"/>
 <pinref part="R97" gate="G$1" pin="1"/>
 <wire x1="789.94" y1="30.48" x2="789.94" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="D29" gate="A" pin="C"/>
+<pinref part="D29" gate="A" pin="1"/>
 <wire x1="772.16" y1="22.86" x2="789.94" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="789.94" y1="22.86" x2="789.94" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C45" gate="G$1" pin="1"/>
@@ -15520,7 +15511,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <pinref part="R107" gate="G$1" pin="2"/>
 <wire x1="795.02" y1="50.8" x2="795.02" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="795.02" y1="50.8" x2="825.5" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="D36" gate="A" pin="A"/>
+<pinref part="D36" gate="A" pin="2"/>
 <junction x="795.02" y="50.8"/>
 <junction x="789.94" y="30.48"/>
 <label x="787.4" y="40.64" size="1.778" layer="95" rot="R180"/>
@@ -15534,21 +15525,21 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="929.64" y="-33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D37" gate="A" pin="A"/>
+<pinref part="D37" gate="A" pin="2"/>
 <wire x1="922.02" y1="55.88" x2="919.48" y2="55.88" width="0.1524" layer="91"/>
 <label x="919.48" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$81" class="0">
 <segment>
-<pinref part="D33" gate="A" pin="C"/>
-<pinref part="D32" gate="A" pin="A"/>
+<pinref part="D33" gate="A" pin="1"/>
+<pinref part="D32" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$82" class="0">
 <segment>
-<pinref part="D32" gate="A" pin="C"/>
-<pinref part="D31" gate="A" pin="A"/>
+<pinref part="D32" gate="A" pin="1"/>
+<pinref part="D31" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$83" class="0">
@@ -15560,15 +15551,15 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="N$84" class="0">
 <segment>
-<pinref part="D36" gate="A" pin="C"/>
-<pinref part="D35" gate="A" pin="A"/>
+<pinref part="D36" gate="A" pin="1"/>
+<pinref part="D35" gate="A" pin="2"/>
 <wire x1="835.66" y1="50.8" x2="838.2" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$85" class="0">
 <segment>
-<pinref part="D35" gate="A" pin="C"/>
-<pinref part="D34" gate="A" pin="A"/>
+<pinref part="D35" gate="A" pin="1"/>
+<pinref part="D34" gate="A" pin="2"/>
 <wire x1="848.36" y1="50.8" x2="850.9" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15818,7 +15809,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <wire x1="822.96" y1="10.16" x2="838.2" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="838.2" y1="10.16" x2="840.74" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="840.74" y1="-7.62" x2="873.76" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="D31" gate="A" pin="C"/>
+<pinref part="D31" gate="A" pin="1"/>
 <wire x1="840.74" y1="-7.62" x2="835.66" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="840.74" y="-7.62"/>
 <label x="835.66" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -15841,11 +15832,11 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="POS_A4_COMP3" class="0">
 <segment>
-<pinref part="D33" gate="A" pin="A"/>
+<pinref part="D33" gate="A" pin="2"/>
 <wire x1="873.76" y1="22.86" x2="873.76" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R111" gate="G$1" pin="1"/>
 <wire x1="873.76" y1="30.48" x2="871.22" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="D34" gate="A" pin="C"/>
+<pinref part="D34" gate="A" pin="1"/>
 <wire x1="861.06" y1="50.8" x2="873.76" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="873.76" y1="50.8" x2="873.76" y2="30.48" width="0.1524" layer="91"/>
 <junction x="873.76" y="30.48"/>
@@ -15884,7 +15875,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="754.38" y="-35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D30" gate="A" pin="A"/>
+<pinref part="D30" gate="A" pin="2"/>
 <wire x1="845.82" y1="81.28" x2="835.66" y2="81.28" width="0.1524" layer="91"/>
 <label x="845.82" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -15919,7 +15910,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="L1_COMP3" class="0">
 <segment>
-<pinref part="D30" gate="A" pin="C"/>
+<pinref part="D30" gate="A" pin="1"/>
 <wire x1="825.5" y1="81.28" x2="820.42" y2="81.28" width="0.1524" layer="91"/>
 <label x="820.42" y="81.28" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -15966,7 +15957,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <net name="POS_B1_COMP3" class="0">
 <segment>
 <pinref part="R102" gate="G$1" pin="2"/>
-<pinref part="D37" gate="A" pin="C"/>
+<pinref part="D37" gate="A" pin="1"/>
 <wire x1="901.7" y1="68.58" x2="932.18" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="932.18" y1="68.58" x2="932.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="932.18" y1="68.58" x2="932.18" y2="76.2" width="0.1524" layer="91"/>
@@ -16001,10 +15992,10 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <segment>
 <wire x1="66.04" y1="429.26" x2="66.04" y2="424.18" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="424.18" x2="73.66" y2="424.18" width="0.1524" layer="91"/>
-<pinref part="D60" gate="A" pin="C"/>
+<pinref part="D60" gate="A" pin="1"/>
 <wire x1="66.04" y1="424.18" x2="66.04" y2="416.56" width="0.1524" layer="91"/>
 <junction x="66.04" y="424.18"/>
-<pinref part="D62" gate="A" pin="A"/>
+<pinref part="D62" gate="A" pin="2"/>
 <wire x1="66.04" y1="416.56" x2="78.74" y2="416.56" width="0.1524" layer="91"/>
 <pinref part="R149" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="411.48" x2="66.04" y2="416.56" width="0.1524" layer="91"/>
@@ -16022,17 +16013,17 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="N$98" class="0">
 <segment>
-<pinref part="D60" gate="A" pin="A"/>
-<pinref part="D61" gate="A" pin="C"/>
+<pinref part="D60" gate="A" pin="2"/>
+<pinref part="D61" gate="A" pin="1"/>
 <wire x1="96.52" y1="424.18" x2="83.82" y2="424.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$214" class="0">
 <segment>
-<pinref part="D61" gate="A" pin="A"/>
+<pinref part="D61" gate="A" pin="2"/>
 <pinref part="R151" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="424.18" x2="106.68" y2="444.5" width="0.1524" layer="91"/>
-<pinref part="D62" gate="A" pin="C"/>
+<pinref part="D62" gate="A" pin="1"/>
 <wire x1="88.9" y1="416.56" x2="106.68" y2="416.56" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="416.56" x2="106.68" y2="424.18" width="0.1524" layer="91"/>
 <pinref part="C54" gate="G$1" pin="1"/>
@@ -16044,7 +16035,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <pinref part="R161" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="444.5" x2="111.76" y2="396.24" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="444.5" x2="142.24" y2="444.5" width="0.1524" layer="91"/>
-<pinref part="D69" gate="A" pin="A"/>
+<pinref part="D69" gate="A" pin="2"/>
 <junction x="111.76" y="444.5"/>
 <junction x="106.68" y="424.18"/>
 <label x="104.14" y="434.34" size="1.778" layer="95" rot="R180"/>
@@ -16058,21 +16049,21 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="246.38" y="360.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D70" gate="A" pin="A"/>
+<pinref part="D70" gate="A" pin="2"/>
 <wire x1="238.76" y1="449.58" x2="236.22" y2="449.58" width="0.1524" layer="91"/>
 <label x="236.22" y="449.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$99" class="0">
 <segment>
-<pinref part="D66" gate="A" pin="C"/>
-<pinref part="D65" gate="A" pin="A"/>
+<pinref part="D66" gate="A" pin="1"/>
+<pinref part="D65" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$100" class="0">
 <segment>
-<pinref part="D65" gate="A" pin="C"/>
-<pinref part="D64" gate="A" pin="A"/>
+<pinref part="D65" gate="A" pin="1"/>
+<pinref part="D64" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$101" class="0">
@@ -16084,15 +16075,15 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="N$102" class="0">
 <segment>
-<pinref part="D69" gate="A" pin="C"/>
-<pinref part="D68" gate="A" pin="A"/>
+<pinref part="D69" gate="A" pin="1"/>
+<pinref part="D68" gate="A" pin="2"/>
 <wire x1="152.4" y1="444.5" x2="154.94" y2="444.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$103" class="0">
 <segment>
-<pinref part="D68" gate="A" pin="C"/>
-<pinref part="D67" gate="A" pin="A"/>
+<pinref part="D68" gate="A" pin="1"/>
+<pinref part="D67" gate="A" pin="2"/>
 <wire x1="165.1" y1="444.5" x2="167.64" y2="444.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -16342,7 +16333,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <wire x1="139.7" y1="403.86" x2="154.94" y2="403.86" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="403.86" x2="157.48" y2="386.08" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="386.08" x2="190.5" y2="386.08" width="0.1524" layer="91"/>
-<pinref part="D64" gate="A" pin="C"/>
+<pinref part="D64" gate="A" pin="1"/>
 <wire x1="157.48" y1="386.08" x2="152.4" y2="386.08" width="0.1524" layer="91"/>
 <junction x="157.48" y="386.08"/>
 <label x="152.4" y="386.08" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -16365,11 +16356,11 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="POS_A4_COMP4" class="0">
 <segment>
-<pinref part="D66" gate="A" pin="A"/>
+<pinref part="D66" gate="A" pin="2"/>
 <wire x1="190.5" y1="416.56" x2="190.5" y2="424.18" width="0.1524" layer="91"/>
 <pinref part="R165" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="424.18" x2="187.96" y2="424.18" width="0.1524" layer="91"/>
-<pinref part="D67" gate="A" pin="C"/>
+<pinref part="D67" gate="A" pin="1"/>
 <wire x1="177.8" y1="444.5" x2="190.5" y2="444.5" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="444.5" x2="190.5" y2="424.18" width="0.1524" layer="91"/>
 <junction x="190.5" y="424.18"/>
@@ -16408,7 +16399,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <label x="71.12" y="358.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D63" gate="A" pin="A"/>
+<pinref part="D63" gate="A" pin="2"/>
 <wire x1="162.56" y1="474.98" x2="152.4" y2="474.98" width="0.1524" layer="91"/>
 <label x="162.56" y="474.98" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -16443,7 +16434,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 </net>
 <net name="L1_COMP4" class="0">
 <segment>
-<pinref part="D63" gate="A" pin="C"/>
+<pinref part="D63" gate="A" pin="1"/>
 <wire x1="142.24" y1="474.98" x2="137.16" y2="474.98" width="0.1524" layer="91"/>
 <label x="137.16" y="474.98" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -16490,7 +16481,7 @@ http://www.ti.com  &lt;a href="https://pricing.snapeda.com/parts/PCM1865DBT/Texa
 <net name="POS_B1_COMP4" class="0">
 <segment>
 <pinref part="R156" gate="G$1" pin="2"/>
-<pinref part="D70" gate="A" pin="C"/>
+<pinref part="D70" gate="A" pin="1"/>
 <wire x1="218.44" y1="462.28" x2="248.92" y2="462.28" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="462.28" x2="248.92" y2="449.58" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="462.28" x2="248.92" y2="469.9" width="0.1524" layer="91"/>
